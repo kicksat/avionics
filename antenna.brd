@@ -407,18 +407,33 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="59" y="39"/>
 <vertex x="39" y="39"/>
 </polygon>
+<polygon width="0.6096" layer="16">
+<vertex x="28.7" y="70"/>
+<vertex x="69.3" y="70"/>
+<vertex x="69.3" y="28"/>
+<vertex x="28.7" y="28"/>
+</polygon>
 </signal>
 <signal name="N$2">
 <contactref element="B1" pad="P2"/>
 <contactref element="U$1" pad="P$1"/>
 <contactref element="U$1" pad="P$2"/>
-<wire x1="21.3" y1="49" x2="48.6" y2="54.475" width="0" layer="19" extent="1-16"/>
+<wire x1="21.3" y1="49" x2="21.3" y2="60" width="3" layer="1"/>
+<wire x1="21.3" y1="60" x2="41.4" y2="60" width="3" layer="1"/>
+<wire x1="41.4" y1="60" x2="46.6" y2="54.8" width="3" layer="1"/>
+<wire x1="48.6" y1="54.475" x2="46.925" y2="54.475" width="0.6096" layer="1"/>
+<wire x1="46.925" y1="54.475" x2="46.6" y2="54.8" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="B1" pad="P3"/>
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$2" pad="P$2"/>
-<wire x1="49.4" y1="54.475" x2="76.7" y2="49" width="0" layer="19" extent="1-16"/>
+<wire x1="76.7" y1="49" x2="76.8" y2="49" width="3" layer="1"/>
+<wire x1="76.8" y1="49" x2="76.8" y2="60" width="3" layer="1"/>
+<wire x1="76.8" y1="60" x2="56.6" y2="60" width="3" layer="1"/>
+<wire x1="56.6" y1="60" x2="51.4" y2="54.8" width="3" layer="1"/>
+<wire x1="49.4" y1="54.475" x2="51.075" y2="54.475" width="0.6096" layer="1"/>
+<wire x1="51.075" y1="54.475" x2="51.4" y2="54.8" width="0.6096" layer="1"/>
 </signal>
 </signals>
 </board>
