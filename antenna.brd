@@ -5367,7 +5367,7 @@
 <rectangle x1="51.035" y1="30.205" x2="51.165" y2="30.215" layer="200"/>
 <rectangle x1="51.035" y1="30.215" x2="51.105" y2="30.225" layer="200"/>
 <text x="36.91" y="16.93" size="1.5" layer="200" font="vector">Antenna Board V1.0</text>
-<text x="36.56" y="79.12" size="1.5" layer="201" font="vector" rot="MR180">Antenna Board V1.0</text>
+<text x="37.25" y="78.82" size="1.5" layer="201" font="vector" rot="SMR180">Antenna Board V1.0</text>
 <rectangle x1="57.875" y1="75.465" x2="57.915" y2="75.475" layer="201"/>
 <rectangle x1="57.835" y1="75.455" x2="57.975" y2="75.465" layer="201"/>
 <rectangle x1="57.805" y1="75.445" x2="58.025" y2="75.455" layer="201"/>
