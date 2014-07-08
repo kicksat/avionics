@@ -1456,6 +1456,52 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="Micrel">
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 11:08:17</description>
+<packages>
+<package name="SOT95P232X110-3N">
+<smd name="1" x="-1.1938" y="0.9398" dx="1.1176" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.1938" y="-0.9398" dx="1.1176" dy="0.5588" layer="1"/>
+<smd name="3" x="1.1938" y="0" dx="1.1176" dy="0.5588" layer="1"/>
+<wire x1="0.6604" y1="0.6096" x2="0.6604" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="-1.4478" x2="0.6604" y2="-1.4478" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="-1.4478" x2="0.6604" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="1.4478" x2="0.3048" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.4478" x2="-0.381" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.6604" y1="0.3302" x2="-0.6604" y2="-0.3302" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="21" curve="-180"/>
+<text x="-2.032" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<wire x1="-0.6604" y1="-1.4478" x2="0.6604" y2="-1.4478" width="0" layer="51"/>
+<wire x1="0.6604" y1="-1.4478" x2="0.6604" y2="-0.254" width="0" layer="51"/>
+<wire x1="0.6604" y1="-0.254" x2="0.6604" y2="0.254" width="0" layer="51"/>
+<wire x1="0.6604" y1="0.254" x2="0.6604" y2="1.4478" width="0" layer="51"/>
+<wire x1="0.6604" y1="1.4478" x2="0.3048" y2="1.4478" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.4478" x2="-0.6604" y2="1.4478" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.4478" x2="-0.6604" y2="1.1938" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.1938" x2="-0.6604" y2="0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="0.6858" x2="-0.6604" y2="-0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.1938" x2="-1.3208" y2="1.1938" width="0" layer="51"/>
+<wire x1="-1.3208" y1="1.1938" x2="-1.3208" y2="0.6858" width="0" layer="51"/>
+<wire x1="-1.3208" y1="0.6858" x2="-0.6604" y2="0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-1.4478" x2="-0.6604" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-1.1938" x2="-0.6604" y2="-0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-0.6858" x2="-1.3208" y2="-0.6858" width="0" layer="51"/>
+<wire x1="-1.3208" y1="-0.6858" x2="-1.3208" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-1.3208" y1="-1.1938" x2="-0.6604" y2="-1.1938" width="0" layer="51"/>
+<wire x1="0.6604" y1="-0.254" x2="1.3208" y2="-0.254" width="0" layer="51"/>
+<wire x1="1.3208" y1="-0.254" x2="1.3208" y2="0.254" width="0" layer="51"/>
+<wire x1="1.3208" y1="0.254" x2="0.6604" y2="0.254" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51" curve="-180"/>
+<text x="-2.032" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1677,7 +1723,21 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="JP1" library="SparkFun-Connectors" package="USB-MINIB-NOSTOP" value="USB-SMD-NS" x="83.5" y="50" rot="R180"/>
 <element name="U8" library="SparkFun" package="SSOP28DB" value="FT232RLSSOP" x="59" y="48.7"/>
 <element name="JP2" library="SparkFun-Connectors" package="USB-MINIB-NOSTOP" value="USB-SMD-NS" x="70.5" y="41.9" rot="R180"/>
-<element name="U$1" library="AB0805" package="QFN16" value="AB0805" x="1.7" y="-2.1"/>
+<element name="U$1" library="AB0805" package="QFN16" value="AB0805" x="43" y="55.9"/>
+<element name="U9" library="Micrel" package="SOT95P232X110-3N" value="MIC803-31D3VM3TR" x="48.7" y="55.3" rot="R270">
+<attribute name="PACKAGE" value="SOT-23-3" x="48.7" y="55.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="58T4953" x="48.7" y="55.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="MIC803-31D3VM3TR" x="48.7" y="55.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SUPPLIER" value="MICREL SEMICONDUCTOR" x="48.7" y="55.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1924772" x="48.7" y="55.3" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="U10" library="Micrel" package="SOT95P232X110-3N" value="MIC803-46D3VM3TR" x="4.5" y="40.9">
+<attribute name="PACKAGE" value="SOT-23-3" x="4.5" y="40.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="58T4965" x="4.5" y="40.9" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MIC803-46D3VM3TR" x="4.5" y="40.9" size="1.778" layer="27" display="off"/>
+<attribute name="SUPPLIER" value="MICREL SEMICONDUCTOR" x="4.5" y="40.9" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="1924785" x="4.5" y="40.9" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1756,8 +1816,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="13.8" y1="13.2" x2="13.8" y2="27.2" width="0" layer="19" extent="1-1"/>
 <wire x1="18.85" y1="3.2822" x2="13.8" y2="13.2" width="0" layer="19" extent="1-1"/>
 <wire x1="5.09" y1="5.08" x2="13.8" y2="13.2" width="0" layer="19" extent="1-1"/>
-<wire x1="1.7" y1="-2.1" x2="5.09" y2="5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="3.1" y1="-2.85" x2="1.7" y2="-2.1" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="55.9" x2="5.09" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="44.4" y1="55.15" x2="43" y2="55.9" width="0" layer="19" extent="1-1"/>
 <wire x1="46.6" y1="15.2" x2="57.8501" y2="24.0501" width="0" layer="19" extent="1-1"/>
 <wire x1="85.09" y1="5.08" x2="62.9499" y2="24.0501" width="0" layer="19" extent="1-1"/>
 <wire x1="8.89" y1="90.805" x2="41.35" y2="74.6" width="0" layer="19" extent="1-1"/>
@@ -1770,7 +1830,11 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <signal name="VCC">
 <contactref element="U2" pad="20"/>
 <contactref element="U8" pad="20"/>
+<contactref element="U9" pad="3"/>
+<contactref element="U10" pad="3"/>
 <wire x1="59.975" y1="52.356" x2="67.175" y2="65.256" width="0" layer="19" extent="1-1"/>
+<wire x1="48.7" y1="54.1062" x2="59.975" y2="52.356" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6938" y1="40.9" x2="48.7" y2="54.1062" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND7">
 <contactref element="U2" pad="7"/>
@@ -2068,7 +2132,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="50.3" y1="39.3" x2="46.3" y2="48.3" width="0" layer="19" extent="1-1"/>
 <wire x1="38.8" y1="32.3" x2="34.3" y2="41.8" width="0" layer="19" extent="1-1"/>
 <wire x1="14.95" y1="3.2822" x2="38.8" y2="32.3" width="0" layer="19" extent="1-1"/>
-<wire x1="2.45" y1="-0.7" x2="14.95" y2="3.2822" width="0" layer="19" extent="1-1"/>
+<wire x1="43.75" y1="57.3" x2="14.95" y2="3.2822" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTR">
 <contactref element="C4" pad="1"/>

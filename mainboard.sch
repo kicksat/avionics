@@ -4083,6 +4083,126 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Micrel">
+<description>Developed by element14 :&lt;br&gt;
+element14 CAD Library consolidation.ulp
+at 30/07/2012 11:08:17</description>
+<packages>
+<package name="SOT95P232X110-3N">
+<smd name="1" x="-1.1938" y="0.9398" dx="1.1176" dy="0.5588" layer="1"/>
+<smd name="2" x="-1.1938" y="-0.9398" dx="1.1176" dy="0.5588" layer="1"/>
+<smd name="3" x="1.1938" y="0" dx="1.1176" dy="0.5588" layer="1"/>
+<wire x1="0.6604" y1="0.6096" x2="0.6604" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="-1.4478" x2="0.6604" y2="-1.4478" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="-1.4478" x2="0.6604" y2="-0.6096" width="0.1524" layer="21"/>
+<wire x1="0.6604" y1="1.4478" x2="0.3048" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.4478" x2="-0.381" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-0.6604" y1="0.3302" x2="-0.6604" y2="-0.3302" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0.1524" layer="21" curve="-180"/>
+<text x="-2.032" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<wire x1="-0.6604" y1="-1.4478" x2="0.6604" y2="-1.4478" width="0" layer="51"/>
+<wire x1="0.6604" y1="-1.4478" x2="0.6604" y2="-0.254" width="0" layer="51"/>
+<wire x1="0.6604" y1="-0.254" x2="0.6604" y2="0.254" width="0" layer="51"/>
+<wire x1="0.6604" y1="0.254" x2="0.6604" y2="1.4478" width="0" layer="51"/>
+<wire x1="0.6604" y1="1.4478" x2="0.3048" y2="1.4478" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51"/>
+<wire x1="-0.3048" y1="1.4478" x2="-0.6604" y2="1.4478" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.4478" x2="-0.6604" y2="1.1938" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.1938" x2="-0.6604" y2="0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="0.6858" x2="-0.6604" y2="-0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="1.1938" x2="-1.3208" y2="1.1938" width="0" layer="51"/>
+<wire x1="-1.3208" y1="1.1938" x2="-1.3208" y2="0.6858" width="0" layer="51"/>
+<wire x1="-1.3208" y1="0.6858" x2="-0.6604" y2="0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-1.4478" x2="-0.6604" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-1.1938" x2="-0.6604" y2="-0.6858" width="0" layer="51"/>
+<wire x1="-0.6604" y1="-0.6858" x2="-1.3208" y2="-0.6858" width="0" layer="51"/>
+<wire x1="-1.3208" y1="-0.6858" x2="-1.3208" y2="-1.1938" width="0" layer="51"/>
+<wire x1="-1.3208" y1="-1.1938" x2="-0.6604" y2="-1.1938" width="0" layer="51"/>
+<wire x1="0.6604" y1="-0.254" x2="1.3208" y2="-0.254" width="0" layer="51"/>
+<wire x1="1.3208" y1="-0.254" x2="1.3208" y2="0.254" width="0" layer="51"/>
+<wire x1="1.3208" y1="0.254" x2="0.6604" y2="0.254" width="0" layer="51"/>
+<wire x1="0.3048" y1="1.4478" x2="-0.3048" y2="1.4478" width="0" layer="51" curve="-180"/>
+<text x="-2.032" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<text x="-3.4544" y="2.54" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-3.4544" y="-4.445" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MIC803-31D3VM3TR">
+<pin name="VCC" x="0" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="~RESET" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="30.48" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="5.08" width="0.127" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<text x="11.7348" y="7.239" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="13.7922" y="-12.9794" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+<symbol name="MIC803-46D3VM3TR">
+<pin name="VCC" x="0" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="0" y="-5.08" length="middle" direction="pas"/>
+<pin name="~RESET" x="35.56" y="0" length="middle" direction="pas" rot="R180"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="30.48" y2="-10.16" width="0.127" layer="94"/>
+<wire x1="30.48" y1="-10.16" x2="30.48" y2="5.08" width="0.127" layer="94"/>
+<wire x1="30.48" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<text x="11.7348" y="7.239" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="13.7922" y="-12.9794" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MIC803-31D3VM3TR" prefix="U">
+<description>3 Pin Microprocessor Supervisor Circuit</description>
+<gates>
+<gate name="A" symbol="MIC803-31D3VM3TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P232X110-3N">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="VCC" pad="3"/>
+<connect gate="A" pin="~RESET" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="MIC803-31D3VM3TR" constant="no"/>
+<attribute name="OC_FARNELL" value="1924772" constant="no"/>
+<attribute name="OC_NEWARK" value="58T4953" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+<attribute name="SUPPLIER" value="MICREL SEMICONDUCTOR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MIC803-46D3VM3TR" prefix="U">
+<description>3 Pin Microprocessor Supervisor Circuit</description>
+<gates>
+<gate name="A" symbol="MIC803-46D3VM3TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P232X110-3N">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="VCC" pad="3"/>
+<connect gate="A" pin="~RESET" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MPN" value="MIC803-46D3VM3TR" constant="no"/>
+<attribute name="OC_FARNELL" value="1924785" constant="no"/>
+<attribute name="OC_NEWARK" value="58T4965" constant="no"/>
+<attribute name="PACKAGE" value="SOT-23-3" constant="no"/>
+<attribute name="SUPPLIER" value="MICREL SEMICONDUCTOR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4155,6 +4275,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="U$1" library="AB0805" deviceset="AB0805" device=""/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="U9" library="Micrel" deviceset="MIC803-31D3VM3TR" device=""/>
+<part name="U10" library="Micrel" deviceset="MIC803-46D3VM3TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4190,7 +4312,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="LED2" gate="G$1" x="271.78" y="15.24"/>
 <instance part="GND13" gate="1" x="271.78" y="5.08"/>
 <instance part="P+1" gate="G$1" x="162.56" y="73.66"/>
-<instance part="P+5" gate="G$1" x="177.8" y="60.96"/>
+<instance part="P+5" gate="G$1" x="177.8" y="83.82"/>
 <instance part="P+6" gate="G$1" x="271.78" y="-7.62"/>
 <instance part="U7" gate="G$1" x="-114.3" y="-22.86" smashed="yes">
 <attribute name="NAME" x="-131.826" y="5.842" size="1.778" layer="95"/>
@@ -4227,9 +4349,11 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="P+4" gate="G$1" x="99.06" y="114.3"/>
 <instance part="GND12" gate="1" x="63.5" y="106.68"/>
 <instance part="GND14" gate="1" x="93.98" y="106.68"/>
-<instance part="U$1" gate="G$1" x="172.72" y="119.38"/>
-<instance part="GND15" gate="1" x="190.5" y="99.06"/>
-<instance part="P+7" gate="G$1" x="190.5" y="137.16"/>
+<instance part="U$1" gate="G$1" x="317.5" y="88.9"/>
+<instance part="GND15" gate="1" x="335.28" y="68.58"/>
+<instance part="P+7" gate="G$1" x="335.28" y="106.68"/>
+<instance part="U9" gate="A" x="180.34" y="109.22"/>
+<instance part="U10" gate="A" x="-139.7" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -4389,8 +4513,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="187.96" y1="104.14" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="104.14" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="73.66" x2="335.28" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="73.66" x2="335.28" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -4936,7 +5060,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </segment>
 <segment>
 <wire x1="180.34" y1="40.64" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="40.64" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="40.64" x2="177.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="30.48" x2="177.8" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="30.48" x2="177.8" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="27.94" x2="177.8" y2="27.94" width="0.1524" layer="91"/>
@@ -4994,8 +5118,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <pinref part="P+7" gate="G$1" pin="3.3V"/>
-<wire x1="187.96" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="134.62" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="104.14" x2="335.28" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="104.14" x2="335.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET2" class="0">
