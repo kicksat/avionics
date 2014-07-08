@@ -4006,6 +4006,83 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="AB0805">
+<packages>
+<package name="QFN16">
+<smd name="GNDPAD" x="0" y="0" dx="1.65" dy="1.65" layer="1"/>
+<smd name="XI" x="-0.75" y="1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="XO" x="-0.25" y="1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="AF" x="0.25" y="1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="VCC" x="0.75" y="1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="VBAT" x="-0.75" y="-1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="SDA" x="-0.25" y="-1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="SCL" x="0.25" y="-1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="CLKOUT" x="0.75" y="-1.4" dx="0.7" dy="0.25" layer="1" rot="R90"/>
+<smd name="NTIRQ" x="1.4" y="0.75" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="FOUT" x="1.4" y="0.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="EXTI" x="1.4" y="-0.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="GND" x="1.4" y="-0.75" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="NC1" x="-1.4" y="0.75" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="WDI" x="-1.4" y="0.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="NC2" x="-1.4" y="-0.25" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<smd name="NIRQ2" x="-1.4" y="-0.75" dx="0.7" dy="0.25" layer="1" rot="R180"/>
+<wire x1="-1.2" y1="1.6" x2="-1.6" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="-1.6" y2="1.2" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="AB0805">
+<pin name="XI" x="-15.24" y="15.24" length="middle"/>
+<pin name="XO" x="-15.24" y="10.16" length="middle"/>
+<pin name="AF" x="15.24" y="10.16" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="15.24" length="middle" rot="R180"/>
+<pin name="NTIRQ" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="FOUT" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="EXTI" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-15.24" length="middle" rot="R180"/>
+<pin name="CLKOUT" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="SCL" x="-15.24" y="-15.24" length="middle"/>
+<pin name="SDA" x="-15.24" y="-10.16" length="middle"/>
+<pin name="VBAT" x="-15.24" y="-5.08" length="middle"/>
+<pin name="NIRQ2" x="-15.24" y="0" length="middle"/>
+<pin name="WDI" x="-15.24" y="5.08" length="middle"/>
+<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="AB0805">
+<gates>
+<gate name="G$1" symbol="AB0805" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN16">
+<connects>
+<connect gate="G$1" pin="AF" pad="AF"/>
+<connect gate="G$1" pin="CLKOUT" pad="CLKOUT"/>
+<connect gate="G$1" pin="EXTI" pad="EXTI"/>
+<connect gate="G$1" pin="FOUT" pad="FOUT"/>
+<connect gate="G$1" pin="GND" pad="GND GNDPAD"/>
+<connect gate="G$1" pin="NIRQ2" pad="NIRQ2"/>
+<connect gate="G$1" pin="NTIRQ" pad="NTIRQ"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="WDI" pad="WDI"/>
+<connect gate="G$1" pin="XI" pad="XI"/>
+<connect gate="G$1" pin="XO" pad="XO"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4069,6 +4146,15 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
+<part name="P+3" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
+<part name="GND12" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND14" library="SparkFun" deviceset="GND" device=""/>
+<part name="U$1" library="AB0805" deviceset="AB0805" device=""/>
+<part name="GND15" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4077,8 +4163,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <text x="185.42" y="-96.52" size="1.778" layer="97">ATMEGA2560V</text>
 </plain>
 <instances>
-<instance part="H1" gate="G$1" x="50.8" y="114.3" rot="R90"/>
-<instance part="H2" gate="G$1" x="50.8" y="134.62" rot="R90"/>
+<instance part="H1" gate="G$1" x="10.16" y="116.84"/>
+<instance part="H2" gate="G$1" x="78.74" y="116.84"/>
 <instance part="U3" gate="G$1" x="-45.72" y="50.8"/>
 <instance part="U5" gate="G$1" x="347.98" y="0"/>
 <instance part="U4" gate="G$1" x="355.6" y="-48.26"/>
@@ -4135,6 +4221,15 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="SUPPLY4" gate="G$1" x="55.88" y="12.7"/>
 <instance part="P+2" gate="G$1" x="50.8" y="12.7"/>
 <instance part="GND11" gate="1" x="53.34" y="-27.94"/>
+<instance part="SUPPLY5" gate="G$1" x="63.5" y="116.84"/>
+<instance part="SUPPLY6" gate="G$1" x="93.98" y="116.84"/>
+<instance part="P+3" gate="G$1" x="58.42" y="114.3"/>
+<instance part="P+4" gate="G$1" x="99.06" y="114.3"/>
+<instance part="GND12" gate="1" x="63.5" y="106.68"/>
+<instance part="GND14" gate="1" x="93.98" y="106.68"/>
+<instance part="U$1" gate="G$1" x="172.72" y="119.38"/>
+<instance part="GND15" gate="1" x="190.5" y="99.06"/>
+<instance part="P+7" gate="G$1" x="190.5" y="137.16"/>
 </instances>
 <busses>
 </busses>
@@ -4273,6 +4368,30 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="GND11" gate="1" pin="GND"/>
 <pinref part="U6" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="-25.4" x2="53.34" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="29"/>
+<wire x1="73.66" y1="111.76" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="31"/>
+<wire x1="73.66" y1="109.22" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="111.76" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<junction x="63.5" y="109.22"/>
+</segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="30"/>
+<wire x1="83.82" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="H2" gate="G$1" pin="32"/>
+<wire x1="83.82" y1="109.22" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="111.76" x2="93.98" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<junction x="93.98" y="109.22"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="187.96" y1="104.14" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="104.14" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$73" class="0">
@@ -4584,6 +4703,11 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U1" gate="1" pin="(SCL/INT0)PD0"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="H1" gate="G$1" pin="43"/>
+<wire x1="5.08" y1="93.98" x2="-5.08" y2="93.98" width="0.1524" layer="91"/>
+<label x="-5.08" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -4592,6 +4716,11 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <label x="256.54" y="-25.4" size="1.778" layer="95"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="U1" gate="1" pin="(SDA/INT1)PD1"/>
+</segment>
+<segment>
+<pinref part="H1" gate="G$1" pin="41"/>
+<wire x1="5.08" y1="96.52" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<label x="-5.08" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX1" class="0">
@@ -4852,6 +4981,22 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U6" gate="G$1" pin="VCCA"/>
 <wire x1="50.8" y1="12.7" x2="50.8" y2="10.16" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="27"/>
+<wire x1="73.66" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="28"/>
+<wire x1="83.82" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="P+7" gate="G$1" pin="3.3V"/>
+<wire x1="187.96" y1="134.62" x2="190.5" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="134.62" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET2" class="0">
 <segment>
@@ -4879,8 +5024,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="-152.4" y1="17.78" x2="-152.4" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
+<pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="-45.72" y1="66.04" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -4909,6 +5054,16 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U6" gate="G$1" pin="VCCB"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
 <wire x1="55.88" y1="10.16" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="25"/>
+<wire x1="73.66" y1="116.84" x2="63.5" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
+</segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="26"/>
+<wire x1="83.82" y1="116.84" x2="93.98" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4973,6 +5128,25 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U3" gate="G$1" pin="SCK"/>
 <wire x1="-58.42" y1="53.34" x2="-66.04" y2="53.34" width="0.1524" layer="91"/>
 <label x="-66.04" y="53.34" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="VBATT" class="0">
+<segment>
+<pinref part="H2" gate="G$1" pin="45"/>
+<wire x1="73.66" y1="91.44" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
+<label x="63.5" y="91.44" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="H2" gate="G$1" pin="46"/>
+<wire x1="83.82" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
+<label x="93.98" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBACKUP" class="0">
+<segment>
+<pinref part="H1" gate="G$1" pin="42"/>
+<wire x1="15.24" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
+<label x="25.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
