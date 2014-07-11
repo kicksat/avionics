@@ -112,7 +112,6 @@
 <smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
 <smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
 <text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.143" y1="-0.762" x2="-1.016" y2="0.762" layer="21"/>
 </package>
 <package name="SOLAR_CELL">
 <wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
@@ -128,7 +127,7 @@
 <text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
 <rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
 <rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
-<polygon width="0" layer="1">
+<polygon width="0.1524" layer="1">
 <vertex x="12.2949" y="7.2551"/>
 <vertex x="-0.0551" y="7.2551"/>
 <vertex x="-0.0551" y="-23.9449"/>
@@ -143,13 +142,12 @@
 <vertex x="-0.1658" y="-24.1874"/>
 <vertex x="-0.1599" y="7.3353"/>
 </polygon>
-<polygon width="0" layer="31">
+<polygon width="0.127" layer="31">
 <vertex x="12.2977" y="7.2362"/>
 <vertex x="-0.0523" y="7.2362"/>
 <vertex x="-0.0523" y="-23.9638"/>
 <vertex x="2.3977" y="-21.9138"/>
 </polygon>
-<text x="-1.27" y="-6.35" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
