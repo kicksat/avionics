@@ -193,6 +193,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="Widetronix">
+<packages>
+<package name="BETABATTERY">
+<smd name="V+" x="-4" y="-0.1" dx="2" dy="6" layer="1"/>
+<smd name="V-" x="4" y="-0.1" dx="2" dy="6" layer="1"/>
+<wire x1="-5.1" y1="4.25" x2="5.1" y2="4.25" width="0.127" layer="21"/>
+<wire x1="5.1" y1="4.25" x2="5.1" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-4.25" x2="-5.1" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-4.25" x2="-5.1" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="3.3" x2="-5.1" y2="4.25" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="3.3" x2="-4.2" y2="4.2" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -386,6 +400,12 @@ design rules under a new name.</description>
 <element name="U$4" library="G125-FV20605L0P" package="G125-FV20605L0P" value="G125-FV20605L0P" x="41.98" y="12.3"/>
 <element name="U$5" library="G125-FV20605L0P" package="G125-FV20605L0P" value="G125-FV20605L0P" x="55.34" y="40.57"/>
 <element name="U$6" library="G125-FV20605L0P" package="G125-FV20605L0P" value="G125-FV20605L0P" x="28.41" y="31.49"/>
+<element name="U$7" library="Widetronix" package="BETABATTERY" value="BETABATTERY" x="11.71" y="68.77"/>
+<element name="U$8" library="Widetronix" package="BETABATTERY" value="BETABATTERY" x="11.7" y="59.34"/>
+<element name="U$9" library="Widetronix" package="BETABATTERY" value="BETABATTERY" x="11.7" y="50.24"/>
+<element name="U$10" library="Widetronix" package="BETABATTERY" value="BETABATTERY" x="11.7" y="40.64"/>
+<element name="U$11" library="Widetronix" package="BETABATTERY" value="BETABATTERY" x="11.54" y="30.74"/>
+<element name="U$12" library="Widetronix" package="BETABATTERY" value="BETABATTERY" x="11.07" y="21.15"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -393,6 +413,32 @@ design rules under a new name.</description>
 <via x="82.55" y="90.805" extent="1-16" drill="3.175" diameter="5"/>
 <via x="85.09" y="5.08" extent="1-16" drill="3.175" diameter="5"/>
 <via x="5.09" y="5.08" extent="1-16" drill="3.175" diameter="5"/>
+</signal>
+<signal name="V+">
+<contactref element="U$7" pad="V+"/>
+<contactref element="U$8" pad="V+"/>
+<contactref element="U$9" pad="V+"/>
+<contactref element="U$10" pad="V+"/>
+<contactref element="U$11" pad="V+"/>
+<contactref element="U$12" pad="V+"/>
+<wire x1="7.54" y1="30.64" x2="7.07" y2="21.05" width="0" layer="19" extent="1-1"/>
+<wire x1="7.7" y1="40.54" x2="7.54" y2="30.64" width="0" layer="19" extent="1-1"/>
+<wire x1="7.7" y1="50.14" x2="7.7" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="7.7" y1="59.24" x2="7.7" y2="50.14" width="0" layer="19" extent="1-1"/>
+<wire x1="7.71" y1="68.67" x2="7.7" y2="59.24" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="V-">
+<contactref element="U$7" pad="V-"/>
+<contactref element="U$8" pad="V-"/>
+<contactref element="U$9" pad="V-"/>
+<contactref element="U$10" pad="V-"/>
+<contactref element="U$11" pad="V-"/>
+<contactref element="U$12" pad="V-"/>
+<wire x1="15.54" y1="30.64" x2="15.07" y2="21.05" width="0" layer="19" extent="1-1"/>
+<wire x1="15.7" y1="40.54" x2="15.54" y2="30.64" width="0" layer="19" extent="1-1"/>
+<wire x1="15.7" y1="50.14" x2="15.7" y2="40.54" width="0" layer="19" extent="1-1"/>
+<wire x1="15.7" y1="59.24" x2="15.7" y2="50.14" width="0" layer="19" extent="1-1"/>
+<wire x1="15.71" y1="68.67" x2="15.7" y2="59.24" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

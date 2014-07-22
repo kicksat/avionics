@@ -257,6 +257,48 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="Widetronix">
+<packages>
+<package name="BETABATTERY">
+<smd name="V+" x="-4" y="-0.1" dx="2" dy="6" layer="1"/>
+<smd name="V-" x="4" y="-0.1" dx="2" dy="6" layer="1"/>
+<wire x1="-5.1" y1="4.25" x2="5.1" y2="4.25" width="0.127" layer="21"/>
+<wire x1="5.1" y1="4.25" x2="5.1" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-4.25" x2="-5.1" y2="-4.25" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-4.25" x2="-5.1" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="3.3" x2="-5.1" y2="4.25" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="3.3" x2="-4.2" y2="4.2" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BETABATTERY">
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<pin name="V+" x="0" y="7.62" visible="off" length="middle" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-10.16" visible="off" length="middle" direction="pwr" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BETABATTERY">
+<gates>
+<gate name="G$1" symbol="BETABATTERY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BETABATTERY">
+<connects>
+<connect gate="G$1" pin="V+" pad="V+"/>
+<connect gate="G$1" pin="V-" pad="V-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -274,6 +316,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$4" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
 <part name="U$5" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
 <part name="U$6" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
+<part name="U$7" library="Widetronix" deviceset="BETABATTERY" device=""/>
+<part name="U$8" library="Widetronix" deviceset="BETABATTERY" device=""/>
+<part name="U$9" library="Widetronix" deviceset="BETABATTERY" device=""/>
+<part name="U$10" library="Widetronix" deviceset="BETABATTERY" device=""/>
+<part name="U$11" library="Widetronix" deviceset="BETABATTERY" device=""/>
+<part name="U$12" library="Widetronix" deviceset="BETABATTERY" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -287,6 +335,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$4" gate="G$1" x="116.84" y="27.94" rot="R90"/>
 <instance part="U$5" gate="G$1" x="73.66" y="81.28" rot="R90"/>
 <instance part="U$6" gate="G$1" x="114.3" y="86.36" rot="R90"/>
+<instance part="U$7" gate="G$1" x="167.64" y="66.04"/>
+<instance part="U$8" gate="G$1" x="190.5" y="66.04"/>
+<instance part="U$9" gate="G$1" x="215.9" y="66.04"/>
+<instance part="U$10" gate="G$1" x="241.3" y="66.04"/>
+<instance part="U$11" gate="G$1" x="269.24" y="66.04"/>
+<instance part="U$12" gate="G$1" x="299.72" y="63.5"/>
 </instances>
 <busses>
 </busses>
