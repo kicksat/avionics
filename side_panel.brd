@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -585,13 +585,28 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="U$2" pad="H2"/>
 <contactref element="U$2" pad="H3"/>
 <contactref element="U$2" pad="H1"/>
+<polygon width="0.254" layer="16">
+<vertex x="0" y="3"/>
+<vertex x="81.73" y="3"/>
+<vertex x="81.73" y="105"/>
+<vertex x="0" y="105"/>
+</polygon>
+<polygon width="0.254" layer="16" pour="cutout">
+<vertex x="34" y="44.2"/>
+<vertex x="48" y="44.2" curve="90"/>
+<vertex x="49.6" y="45.8"/>
+<vertex x="49.6" y="59.2"/>
+<vertex x="49.6" y="59.4" curve="90"/>
+<vertex x="48" y="61"/>
+<vertex x="40.9" y="61"/>
+<vertex x="40.8" y="61" curve="90"/>
+<vertex x="32.4" y="52.6"/>
+<vertex x="32.4" y="46"/>
+<vertex x="32.4" y="45.7" curve="90"/>
+<vertex x="33.9" y="44.2"/>
+</polygon>
 <wire x1="42.365" y1="100.23" x2="43.254" y2="99.341" width="0" layer="19" extent="1-1"/>
 <wire x1="42.365" y1="101.5" x2="42.365" y2="100.23" width="0" layer="19" extent="1-1"/>
-<wire x1="42.55" y1="76.45" x2="43.254" y2="99.341" width="0" layer="19" extent="1-1"/>
-<wire x1="42.55" y1="75.2" x2="42.55" y2="76.45" width="0" layer="19" extent="1-1"/>
-<wire x1="33.8" y1="42.5" x2="42.55" y2="75.2" width="0" layer="19" extent="16-16"/>
-<wire x1="49.2" y1="40.7" x2="33.8" y2="41.6" width="0" layer="19" extent="16-16"/>
-<wire x1="16.6" y1="14.8" x2="33.76" y2="36.92" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="SL13" pad="1"/>
@@ -822,30 +837,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="36.3" y1="97.3" x2="36.3" y2="93.1" width="0.6096" layer="16"/>
 <wire x1="36.3" y1="93.1" x2="41.3" y2="88.1" width="0.6096" layer="16"/>
 <wire x1="41.3" y1="88.1" x2="41.3" y2="76.45" width="0.6096" layer="16"/>
-</signal>
-<signal name="N$10">
-<polygon width="0.254" layer="16">
-<vertex x="0" y="3"/>
-<vertex x="81.73" y="3"/>
-<vertex x="81.73" y="105"/>
-<vertex x="0" y="105"/>
-</polygon>
-</signal>
-<signal name="N$12">
-<polygon width="0.254" layer="16" pour="cutout">
-<vertex x="34" y="44.2"/>
-<vertex x="48" y="44.2" curve="90"/>
-<vertex x="49.6" y="45.8"/>
-<vertex x="49.6" y="59.2"/>
-<vertex x="49.6" y="59.4" curve="90"/>
-<vertex x="48" y="61"/>
-<vertex x="40.9" y="61"/>
-<vertex x="40.8" y="61" curve="90"/>
-<vertex x="32.4" y="52.6"/>
-<vertex x="32.4" y="46"/>
-<vertex x="32.4" y="45.7" curve="90"/>
-<vertex x="33.9" y="44.2"/>
-</polygon>
 </signal>
 </signals>
 <errors>
