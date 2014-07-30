@@ -3390,64 +3390,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="-0.8255" y="-0.222" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="2.3095" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="2917">
-<wire x1="-3.65" y1="2.15" x2="3.65" y2="2.15" width="0.127" layer="51"/>
-<wire x1="3.65" y1="2.15" x2="3.65" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="3.65" y1="-2.15" x2="-3.65" y2="-2.15" width="0.127" layer="51"/>
-<wire x1="-3.65" y1="-2.15" x2="-3.65" y2="2.15" width="0.127" layer="51"/>
-<wire x1="-3.6" y1="2.3" x2="3.6" y2="2.3" width="0.2032" layer="21"/>
-<wire x1="-3.6" y1="-2.3" x2="3.6" y2="-2.3" width="0.2032" layer="21"/>
-<smd name="-" x="-3.8" y="0" dx="2.5" dy="4.3" layer="1"/>
-<smd name="+" x="3.8" y="0" dx="2.5" dy="4.3" layer="1"/>
-<text x="-2.8" y="2.6" size="1" layer="25">&gt;NAME</text>
-<text x="-2.9" y="-3.5" size="1" layer="27">&gt;VALUE</text>
-<text x="3.81" y="2.54" size="1.27" layer="21">+</text>
-<text x="-5.08" y="2.54" size="1.27" layer="21">-</text>
-<rectangle x1="-2.3" y1="-2.3" x2="-1.2" y2="2.3" layer="21"/>
-</package>
-<package name="0805">
-<wire x1="-0.3" y1="0.6" x2="0.3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="-0.6" width="0.1524" layer="21"/>
-<smd name="1" x="-1.25" y="0" dx="1.5" dy="1.2" layer="1"/>
-<smd name="2" x="1.25" y="0" dx="1.5" dy="1.2" layer="1"/>
-<text x="-2.032" y="0.8255" size="0.762" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="1206">
-<wire x1="-0.5" y1="0.9" x2="0.5" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-0.5" y1="-0.9" x2="0.5" y2="-0.9" width="0.127" layer="21"/>
-<smd name="1" x="-1.7" y="0" dx="2.2" dy="1.8" layer="1"/>
-<smd name="2" x="1.7" y="0" dx="2.2" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.143" size="0.762" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-<package name="2220">
-<wire x1="-1.512" y1="2.54" x2="1.512" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.512" y1="-2.54" x2="1.512" y2="-2.54" width="0.127" layer="21"/>
-<smd name="1" x="-2.921" y="0" dx="2.54" dy="5.08" layer="1"/>
-<smd name="2" x="2.921" y="0" dx="2.54" dy="5.08" layer="1"/>
-<text x="-1.524" y="2.667" size="0.762" layer="25">&gt;NAME</text>
-<text x="-1.397" y="-3.048" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-2.54" x2="2.794" y2="2.54" layer="51"/>
-</package>
-<package name="2512">
-<smd name="1" x="-2.5" y="0" dx="3" dy="3.5" layer="1"/>
-<smd name="2" x="2.5" y="0" dx="3" dy="3.5" layer="1"/>
-<text x="-3.175" y="2.175" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.175" y="-3.445" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="1210">
-<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.3" x2="1.6" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.3" x2="-1.6" y2="-1.3" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.3" x2="-1.6" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.3" x2="1.6" y2="1.3" width="0.2032" layer="21"/>
-<wire x1="-1.6" y1="-1.3" x2="1.6" y2="-1.3" width="0.2032" layer="21"/>
-<smd name="1" x="-1.8" y="0" dx="1.6" dy="2" layer="1"/>
-<smd name="2" x="1.8" y="0" dx="1.6" dy="2" layer="1"/>
-<text x="-0.8" y="0.5" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9" y="-0.7" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
 <wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
@@ -3563,31 +3505,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="CAPACITOR">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="RESISTOR">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="CURRENT_MAX4372">
 <wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
 <wire x1="7.62" y1="10.16" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
@@ -3634,110 +3551,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <connect gate="G$1" pin="D" pad="3"/>
 <connect gate="G$1" pin="G" pad="1"/>
 <connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2917" package="2917">
-<connects>
-<connect gate="G$1" pin="1" pad="-"/>
-<connect gate="G$1" pin="2" pad="+"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1206" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2220" package="2220">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Resistor&lt;/b&gt;
-Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (small) resistors.</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1206" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="0805" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2512" package="2512">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="1210" package="1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAP_0805" prefix="C">
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8307,21 +8120,21 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
 <part name="U14" library="phonesat" deviceset="MOSFET_PCHAN_20A" device=""/>
 <part name="T2" library="phonesat" deviceset="SINGLE_NCHAN_FET" device=""/>
-<part name="R27" library="phonesat" deviceset="RESISTOR" device="0805" value="3K3"/>
-<part name="C30" library="phonesat" deviceset="CAPACITOR" device="0805" value=".1uF"/>
-<part name="R28" library="phonesat" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R27" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="3K3"/>
+<part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value=".1uF"/>
+<part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="U1" library="phonesat" deviceset="MOSFET_PCHAN_20A" device=""/>
 <part name="T1" library="phonesat" deviceset="SINGLE_NCHAN_FET" device=""/>
-<part name="R2" library="phonesat" deviceset="RESISTOR" device="0805" value="3K3"/>
-<part name="C31" library="phonesat" deviceset="CAPACITOR" device="0805" value=".1uF"/>
-<part name="R3" library="phonesat" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="3K3"/>
+<part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value=".1uF"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="U2" library="phonesat" deviceset="MOSFET_PCHAN_20A" device=""/>
 <part name="T3" library="phonesat" deviceset="SINGLE_NCHAN_FET" device=""/>
-<part name="R6" library="phonesat" deviceset="RESISTOR" device="0805" value="3K3"/>
-<part name="C32" library="phonesat" deviceset="CAPACITOR" device="0805" value=".1uF"/>
-<part name="R7" library="phonesat" deviceset="RESISTOR" device="0805" value="10K"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="3K3"/>
+<part name="C32" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value=".1uF"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8359,15 +8172,15 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R1" library="rcl" deviceset="R-US_" device="R1210" value="0R"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R1210" value="0R"/>
 <part name="U$14" library="phonesat" deviceset="CURRENT_MAX4372" device=""/>
-<part name="R5" library="phonesat" deviceset="RESISTOR" device="0805" value=".2R prec"/>
-<part name="C12" library="phonesat" deviceset="CAP_0805" device="" value=".1uF"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value=".2R prec"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value=".1uF"/>
 <part name="GND20" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="U$15" library="phonesat" deviceset="CURRENT_MAX4372" device=""/>
-<part name="C13" library="phonesat" deviceset="CAP_0805" device="" value=".1uF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value=".1uF"/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R8" library="phonesat" deviceset="RESISTOR" device="0805" value=".2R prec"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value=".2R prec"/>
 </parts>
 <sheets>
 <sheet>
@@ -8383,7 +8196,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <text x="-114.3" y="33.02" size="1.778" layer="97">Dual Switching Regulator</text>
 <text x="-48.26" y="-68.58" size="1.778" layer="97">Betavoltaic Cells</text>
 <text x="104.14" y="73.66" size="1.778" layer="97">Burn Wires</text>
-<text x="-38.1" y="81.28" size="1.778" layer="97">Solar Panel Current Sensor</text>
+<text x="-35.56" y="81.28" size="1.778" layer="97">Solar Panel Current Sensor</text>
 <text x="-175.26" y="81.28" size="1.778" layer="97">Battery Current Sensor</text>
 </plain>
 <instances>
@@ -8442,11 +8255,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R10" gate="G$1" x="-66.04" y="-33.02" rot="R90"/>
 <instance part="C10" gate="G$1" x="-58.42" y="-35.56"/>
 <instance part="C11" gate="G$1" x="-50.8" y="-35.56"/>
-<instance part="U$14" gate="G$1" x="-22.86" y="66.04"/>
-<instance part="R5" gate="G$1" x="-40.64" y="66.04" rot="R90"/>
-<instance part="C12" gate="G$1" x="7.62" y="66.04"/>
-<instance part="GND20" gate="1" x="17.78" y="58.42"/>
-<instance part="P+1" gate="G$1" x="17.78" y="73.66"/>
+<instance part="U$14" gate="G$1" x="-20.32" y="66.04"/>
+<instance part="R5" gate="G$1" x="-38.1" y="66.04" rot="R90"/>
+<instance part="C12" gate="G$1" x="10.16" y="66.04"/>
+<instance part="GND20" gate="1" x="20.32" y="58.42"/>
+<instance part="P+1" gate="G$1" x="20.32" y="73.66"/>
 <instance part="U$15" gate="G$1" x="-162.56" y="66.04"/>
 <instance part="C13" gate="G$1" x="-132.08" y="66.04"/>
 <instance part="GND21" gate="1" x="-121.92" y="58.42"/>
@@ -8555,10 +8368,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <junction x="-40.64" y="-7.62"/>
 </segment>
 <segment>
-<wire x1="-10.16" y1="60.96" x2="7.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="60.96" x2="7.62" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
-<junction x="7.62" y="60.96"/>
+<wire x1="-7.62" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="60.96" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="60.96" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
+<junction x="10.16" y="60.96"/>
 <pinref part="U$14" gate="G$1" pin="GND"/>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -8838,10 +8651,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-45.72" y1="12.7" x2="-40.64" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="7.62" y1="71.12" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="73.66" x2="-10.16" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="73.66" x2="17.78" y2="73.66" width="0.1524" layer="91"/>
-<junction x="7.62" y="73.66"/>
+<wire x1="10.16" y1="71.12" x2="10.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<junction x="10.16" y="73.66"/>
 <pinref part="U$14" gate="G$1" pin="VCC"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
@@ -8978,20 +8791,20 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </net>
 <net name="I_SOLAR" class="0">
 <segment>
-<wire x1="-10.16" y1="66.04" x2="2.54" y2="66.04" width="0.1524" layer="91"/>
-<label x="-7.62" y="66.04" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="66.04" x2="5.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="-5.08" y="66.04" size="1.778" layer="95"/>
 <pinref part="U$14" gate="G$1" pin="OUT"/>
 </segment>
 </net>
 <net name="VSOLAR" class="0">
 <segment>
-<wire x1="-35.56" y1="73.66" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="73.66" x2="-40.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="73.66" x2="-58.42" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-40.64" y="73.66"/>
+<wire x1="-33.02" y1="73.66" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="73.66" x2="-38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="73.66" x2="-55.88" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-38.1" y="73.66"/>
 <pinref part="U$14" gate="G$1" pin="RS+"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<label x="-58.42" y="73.66" size="1.778" layer="95"/>
+<label x="-55.88" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I_BATT" class="0">
@@ -9012,12 +8825,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <label x="-205.74" y="73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="60.96" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="60.96" x2="-58.42" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-40.64" y="60.96"/>
+<wire x1="-33.02" y1="60.96" x2="-38.1" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="60.96" x2="-55.88" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-38.1" y="60.96"/>
 <pinref part="U$14" gate="G$1" pin="RS-"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<label x="-58.42" y="60.96" size="1.778" layer="95"/>
+<label x="-55.88" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
