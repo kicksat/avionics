@@ -278,17 +278,31 @@
 <library name="G125-FV20605L0P">
 <packages>
 <package name="G125-FV20605L0P">
-<wire x1="0.05" y1="0.075" x2="0.05" y2="4.975" width="0.127" layer="21"/>
-<wire x1="0.05" y1="4.975" x2="6.35" y2="4.975" width="0.127" layer="21"/>
-<wire x1="6.35" y1="4.975" x2="6.35" y2="0.075" width="0.127" layer="21"/>
-<wire x1="6.35" y1="0.075" x2="0.05" y2="0.075" width="0.127" layer="21"/>
-<text x="0.775" y="5.35" size="0.3048" layer="25" align="center">Harwin Connector</text>
-<pad name="P2" x="3.2" y="3.15" drill="0.55"/>
-<pad name="P3" x="4.45" y="3.15" drill="0.55"/>
-<pad name="P6" x="4.45" y="1.9" drill="0.55"/>
-<pad name="P5" x="3.2" y="1.9" drill="0.55"/>
-<pad name="P4" x="1.95" y="1.9" drill="0.55"/>
-<pad name="P1" x="1.95" y="3.15" drill="0.55"/>
+<wire x1="0" y1="0" x2="0" y2="4.92" width="0.127" layer="21"/>
+<wire x1="0" y1="4.92" x2="2.62" y2="4.92" width="0.127" layer="21"/>
+<wire x1="2.62" y1="4.92" x2="3.62" y2="4.92" width="0.127" layer="21"/>
+<wire x1="3.62" y1="4.92" x2="6.24" y2="4.92" width="0.127" layer="21"/>
+<wire x1="6.24" y1="4.92" x2="6.24" y2="0" width="0.127" layer="21"/>
+<wire x1="6.24" y1="0" x2="5.24" y2="0" width="0.127" layer="21"/>
+<pad name="P1" x="1.87" y="3.085" drill="0.55"/>
+<pad name="P2" x="3.12" y="3.085" drill="0.55"/>
+<pad name="P3" x="4.37" y="3.085" drill="0.55"/>
+<pad name="P4" x="1.87" y="1.835" drill="0.55"/>
+<pad name="P5" x="3.12" y="1.835" drill="0.55"/>
+<pad name="P6" x="4.37" y="1.835" drill="0.55"/>
+<wire x1="5.24" y1="0" x2="4.24" y2="0" width="0.127" layer="21"/>
+<wire x1="4.24" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="3.62" y1="4.92" x2="3.62" y2="3.92" width="0.127" layer="21"/>
+<wire x1="3.62" y1="3.92" x2="2.62" y2="3.92" width="0.127" layer="21"/>
+<wire x1="2.62" y1="3.92" x2="2.62" y2="4.92" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="2" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="4.24" y1="0" x2="4.24" y2="1" width="0.127" layer="21"/>
+<wire x1="4.24" y1="1" x2="5.24" y2="1" width="0.127" layer="21"/>
+<wire x1="5.24" y1="1" x2="5.24" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
