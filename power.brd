@@ -152,7 +152,6 @@
 <pad name="P4" x="1.95" y="1.9" drill="0.55"/>
 <pad name="P5" x="3.2" y="1.9" drill="0.55"/>
 <pad name="P6" x="4.45" y="1.9" drill="0.55"/>
-<text x="0.775" y="5.35" size="0.3048" layer="25" align="center">Harwin Connector</text>
 </package>
 </packages>
 </library>
