@@ -133,64 +133,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun">
-<packages>
-</packages>
-<symbols>
-<symbol name="LETTER_L">
-<wire x1="0" y1="185.42" x2="248.92" y2="185.42" width="0.4064" layer="94"/>
-<wire x1="248.92" y1="185.42" x2="248.92" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
-<wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
-</symbol>
-<symbol name="DOCFIELD">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.254" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.254" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.254" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.254" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.254" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94" font="vector">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94" font="vector">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94" font="vector">REV:</text>
-<text x="1.524" y="17.78" size="2.54" layer="94" font="vector">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94" font="vector">Document Number:</text>
-<text x="15.494" y="17.78" size="2.7432" layer="94" font="vector">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
-<description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
-Standard 8.5x11 US Letter frame</description>
-<gates>
-<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Testing">
 <packages>
 <package name="USB-AB-MICRO-SMD_V02_BOSS">
@@ -1058,17 +1000,31 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <library name="G125-FV20605L0P">
 <packages>
 <package name="G125-FV20605L0P">
-<wire x1="0.05" y1="0.075" x2="0.05" y2="4.975" width="0.127" layer="21"/>
-<wire x1="0.05" y1="4.975" x2="6.35" y2="4.975" width="0.127" layer="21"/>
-<wire x1="6.35" y1="4.975" x2="6.35" y2="0.075" width="0.127" layer="21"/>
-<wire x1="6.35" y1="0.075" x2="0.05" y2="0.075" width="0.127" layer="21"/>
-<pad name="P1" x="1.95" y="3.15" drill="0.55"/>
-<pad name="P2" x="3.2" y="3.15" drill="0.55"/>
-<pad name="P3" x="4.45" y="3.15" drill="0.55"/>
-<pad name="P4" x="1.95" y="1.9" drill="0.55"/>
-<pad name="P5" x="3.2" y="1.9" drill="0.55"/>
-<pad name="P6" x="4.45" y="1.9" drill="0.55"/>
-<text x="0.775" y="5.35" size="0.3048" layer="25" align="center">Harwin Connector</text>
+<wire x1="0" y1="0" x2="0" y2="4.92" width="0.127" layer="21"/>
+<wire x1="0" y1="4.92" x2="2.62" y2="4.92" width="0.127" layer="21"/>
+<wire x1="2.62" y1="4.92" x2="3.62" y2="4.92" width="0.127" layer="21"/>
+<wire x1="3.62" y1="4.92" x2="6.24" y2="4.92" width="0.127" layer="21"/>
+<wire x1="6.24" y1="4.92" x2="6.24" y2="0" width="0.127" layer="21"/>
+<wire x1="6.24" y1="0" x2="5.24" y2="0" width="0.127" layer="21"/>
+<pad name="P1" x="1.87" y="3.085" drill="0.55"/>
+<pad name="P2" x="3.12" y="3.085" drill="0.55"/>
+<pad name="P3" x="4.37" y="3.085" drill="0.55"/>
+<pad name="P4" x="1.87" y="1.835" drill="0.55"/>
+<pad name="P5" x="3.12" y="1.835" drill="0.55"/>
+<pad name="P6" x="4.37" y="1.835" drill="0.55"/>
+<wire x1="5.24" y1="0" x2="4.24" y2="0" width="0.127" layer="21"/>
+<wire x1="4.24" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="2" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="3.62" y1="4.92" x2="3.62" y2="3.92" width="0.127" layer="21"/>
+<wire x1="3.62" y1="3.92" x2="2.62" y2="3.92" width="0.127" layer="21"/>
+<wire x1="2.62" y1="3.92" x2="2.62" y2="4.92" width="0.127" layer="21"/>
+<wire x1="1" y1="0" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="2" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="4.24" y1="0" x2="4.24" y2="1" width="0.127" layer="21"/>
+<wire x1="4.24" y1="1" x2="5.24" y2="1" width="0.127" layer="21"/>
+<wire x1="5.24" y1="1" x2="5.24" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1119,7 +1075,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun" deviceset="FRAME-LETTER" device=""/>
 <part name="U$4" library="Testing" deviceset="USB-AB" device="&quot;&quot;"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M02" device="LOCK_LONGPADS"/>
 <part name="U$1" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
@@ -1129,8 +1084,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 <instance part="U$4" gate="G$1" x="81.28" y="83.82" rot="R180"/>
 <instance part="JP1" gate="G$1" x="81.28" y="63.5"/>
 <instance part="U$1" gate="G$1" x="142.24" y="73.66" rot="R270"/>
