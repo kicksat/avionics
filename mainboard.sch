@@ -7396,6 +7396,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="100uF"/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="X1" library="abracon" deviceset="CRYSTAL" device=".ABS07"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="GND40" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7407,15 +7409,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="U3" gate="G$1" x="-99.06" y="-25.4" rot="MR0"/>
 <instance part="U5" gate="G$1" x="226.06" y="-10.16"/>
 <instance part="U4" gate="G$1" x="208.28" y="43.18"/>
-<instance part="U6" gate="G$1" x="-38.1" y="-20.32" rot="MR0"/>
+<instance part="U6" gate="G$1" x="-43.18" y="-20.32" rot="MR0"/>
 <instance part="P+5" gate="G$1" x="33.02" y="81.28" rot="MR0"/>
 <instance part="SMA1" gate="G$1" x="-119.38" y="-40.64" rot="MR90"/>
 <instance part="GND3" gate="1" x="-129.54" y="-45.72" rot="MR0"/>
 <instance part="SUPPLY2" gate="G$1" x="-99.06" y="-7.62" rot="MR0"/>
 <instance part="GND12" gate="1" x="-99.06" y="-43.18" rot="MR0"/>
-<instance part="SUPPLY4" gate="G$1" x="-40.64" y="0"/>
-<instance part="P+3" gate="G$1" x="-35.56" y="0"/>
-<instance part="GND14" gate="1" x="-38.1" y="-40.64"/>
+<instance part="SUPPLY4" gate="G$1" x="-45.72" y="0"/>
+<instance part="P+3" gate="G$1" x="-40.64" y="0"/>
+<instance part="GND14" gate="1" x="-43.18" y="-40.64"/>
 <instance part="U$1" gate="G$1" x="137.16" y="78.74"/>
 <instance part="GND22" gate="1" x="154.94" y="58.42"/>
 <instance part="P+7" gate="G$1" x="154.94" y="96.52"/>
@@ -7462,6 +7464,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="C21" gate="G$1" x="91.44" y="68.58"/>
 <instance part="GND39" gate="1" x="91.44" y="63.5"/>
 <instance part="X1" gate="G$1" x="111.76" y="91.44" rot="R270"/>
+<instance part="C22" gate="G$1" x="167.64" y="83.82"/>
+<instance part="GND40" gate="1" x="167.64" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -7490,7 +7494,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="U6" gate="G$1" pin="GND"/>
-<wire x1="-38.1" y1="-38.1" x2="-38.1" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-38.1" x2="-43.18" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -7591,12 +7595,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
 <pinref part="U6" gate="G$1" pin="VCCA"/>
-<wire x1="-35.56" y1="0" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="0" x2="-40.64" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
@@ -7670,7 +7678,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <segment>
 <pinref part="U6" gate="G$1" pin="VCCB"/>
 <pinref part="SUPPLY4" gate="G$1" pin="5V"/>
-<wire x1="-40.64" y1="-2.54" x2="-40.64" y2="0" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="-2.54" x2="-45.72" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -7771,8 +7779,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="A4"/>
-<wire x1="-22.86" y1="-25.4" x2="-15.24" y2="-25.4" width="0.1524" layer="91"/>
-<label x="-15.24" y="-25.4" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="-25.4" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
+<label x="-20.32" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
@@ -7783,8 +7791,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="A2"/>
-<wire x1="-22.86" y1="-20.32" x2="-15.24" y2="-20.32" width="0.1524" layer="91"/>
-<label x="-15.24" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-20.32" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
@@ -7795,8 +7803,8 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="A1"/>
-<wire x1="-22.86" y1="-17.78" x2="-15.24" y2="-17.78" width="0.1524" layer="91"/>
-<label x="-15.24" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="-17.78" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-20.32" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_SCK" class="0">
@@ -7807,43 +7815,43 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="A3"/>
-<wire x1="-22.86" y1="-22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="91"/>
-<label x="-15.24" y="-22.86" size="1.778" layer="95"/>
+<wire x1="-27.94" y1="-22.86" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-20.32" y="-22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SDO"/>
 <pinref part="U6" gate="G$1" pin="B1"/>
-<wire x1="-86.36" y1="-17.78" x2="-53.34" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-17.78" x2="-58.42" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SDI"/>
 <pinref part="U6" gate="G$1" pin="B2"/>
-<wire x1="-86.36" y1="-20.32" x2="-53.34" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-20.32" x2="-58.42" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="SCK"/>
 <pinref part="U6" gate="G$1" pin="B3"/>
-<wire x1="-86.36" y1="-22.86" x2="-53.34" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-22.86" x2="-58.42" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="NSEL"/>
 <pinref part="U6" gate="G$1" pin="B4"/>
-<wire x1="-86.36" y1="-25.4" x2="-53.34" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="-25.4" x2="-58.42" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RF_NIRQ" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="NIRQ"/>
-<wire x1="-86.36" y1="-27.94" x2="-76.2" y2="-27.94" width="0.1524" layer="91"/>
-<label x="-76.2" y="-27.94" size="1.778" layer="95"/>
+<wire x1="-86.36" y1="-27.94" x2="-78.74" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-78.74" y="-27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
@@ -7990,6 +7998,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="X1" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="XO"/>
 <wire x1="111.76" y1="88.9" x2="121.92" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="AF"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="88.9" x2="167.64" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
