@@ -3754,7 +3754,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="ST3" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="M023.5MM_LOCK"/>
 <part name="ST4" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="M023.5MM_LOCK"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="2512" value="0R"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="2512" value="0R"/>
 <part name="U$14" library="phonesat" deviceset="CURRENT_MAX4372" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value=".2R prec"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value=".1uF"/>
@@ -4752,15 +4751,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="-180.34" y1="60.96" x2="-190.5" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-180.34" y="60.96"/>
-</segment>
-<segment>
-<pinref part="R20" gate="G$1" pin="2"/>
-<pinref part="R25" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="25.4" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="30.48" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
-<label x="7.62" y="30.48" size="1.778" layer="95"/>
-<junction x="22.86" y="30.48"/>
+<label x="-175.26" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5007,6 +4998,15 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="R5" gate="G$1" pin="1"/>
 <label x="-81.28" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R20" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="25.4" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
+<label x="7.62" y="30.48" size="1.778" layer="95"/>
+<junction x="22.86" y="30.48"/>
+</segment>
 </net>
 <net name="VBURN_IN" class="0">
 <segment>
@@ -5070,7 +5070,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <description>Connectors</description>
 <plain>
 <text x="25.4" y="101.6" size="1.778" layer="97">Footswitch Connections</text>
-<text x="20.32" y="96.52" size="1.778" layer="97">Option for 0, 1, or 2 footswitches</text>
+<text x="22.86" y="96.52" size="1.778" layer="97">Option for 1 or 2 footswitches</text>
 <text x="-124.46" y="139.7" size="1.778" layer="97">Solar Panel Connectors</text>
 <text x="-40.64" y="106.68" size="1.778" layer="97">Battery Terminals</text>
 <text x="5.08" y="43.18" size="1.778" layer="97">Burn Wire 3 Terminal</text>
@@ -5096,8 +5096,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND15" gate="1" x="-111.76" y="-58.42"/>
 <instance part="ST3" gate="G$1" x="20.32" y="73.66" rot="R90"/>
 <instance part="ST4" gate="G$1" x="58.42" y="73.66" rot="R90"/>
-<instance part="R1" gate="G$1" x="25.4" y="91.44"/>
-<instance part="R4" gate="G$1" x="50.8" y="91.44"/>
+<instance part="R1" gate="G$1" x="50.8" y="91.44"/>
 </instances>
 <busses>
 </busses>
@@ -5182,17 +5181,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="-111.76" y="-55.88"/>
 </segment>
 </net>
-<net name="VREG_IN" class="0">
-<segment>
-<pinref part="ST4" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="81.28" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
-<junction x="58.42" y="91.44"/>
-<label x="73.66" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VBURN3" class="0">
 <segment>
 <pinref part="ST5" gate="G$1" pin="2"/>
@@ -5267,15 +5255,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="ST3" gate="G$1" pin="1"/>
 <wire x1="20.32" y1="81.28" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="ST4" gate="G$1" pin="2"/>
-<wire x1="20.32" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="86.36" x2="55.88" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="91.44" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
-<junction x="30.48" y="86.36"/>
 <junction x="45.72" y="86.36"/>
 </segment>
 </net>
@@ -5286,9 +5270,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="ST3" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="81.28" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="91.44" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
-<junction x="17.78" y="91.44"/>
 <wire x1="-27.94" y1="99.06" x2="2.54" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="99.06" x2="2.54" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="81.28" x2="2.54" y2="81.28" width="0.1524" layer="91"/>
@@ -5318,6 +5299,17 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="SP4" gate="G$1" pin="P2"/>
 <wire x1="-124.46" y1="22.86" x2="-129.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="-129.54" y="22.86" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="VBATT" class="0">
+<segment>
+<pinref part="ST4" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="81.28" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="91.44" x2="73.66" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
+<junction x="58.42" y="91.44"/>
+<label x="73.66" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
