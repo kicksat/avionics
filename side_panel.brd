@@ -202,31 +202,31 @@
 <library name="G125-FV20605L0P">
 <packages>
 <package name="G125-FV20605L0P">
-<wire x1="0" y1="0" x2="0" y2="4.92" width="0.127" layer="21"/>
-<wire x1="0" y1="4.92" x2="2.62" y2="4.92" width="0.127" layer="21"/>
-<wire x1="2.62" y1="4.92" x2="3.62" y2="4.92" width="0.127" layer="21"/>
-<wire x1="3.62" y1="4.92" x2="6.24" y2="4.92" width="0.127" layer="21"/>
-<wire x1="6.24" y1="4.92" x2="6.24" y2="0" width="0.127" layer="21"/>
-<wire x1="6.24" y1="0" x2="5.24" y2="0" width="0.127" layer="21"/>
-<pad name="P1" x="1.87" y="3.085" drill="0.55"/>
-<pad name="P2" x="3.12" y="3.085" drill="0.55"/>
-<pad name="P3" x="4.37" y="3.085" drill="0.55"/>
-<pad name="P4" x="1.87" y="1.835" drill="0.55"/>
-<pad name="P5" x="3.12" y="1.835" drill="0.55"/>
-<pad name="P6" x="4.37" y="1.835" drill="0.55"/>
-<wire x1="5.24" y1="0" x2="4.24" y2="0" width="0.127" layer="21"/>
-<wire x1="4.24" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
-<wire x1="2" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
-<wire x1="1" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<wire x1="3.62" y1="4.92" x2="3.62" y2="3.92" width="0.127" layer="21"/>
-<wire x1="3.62" y1="3.92" x2="2.62" y2="3.92" width="0.127" layer="21"/>
-<wire x1="2.62" y1="3.92" x2="2.62" y2="4.92" width="0.127" layer="21"/>
-<wire x1="1" y1="0" x2="1" y2="1" width="0.127" layer="21"/>
-<wire x1="1" y1="1" x2="2" y2="1" width="0.127" layer="21"/>
-<wire x1="2" y1="1" x2="2" y2="0" width="0.127" layer="21"/>
-<wire x1="4.24" y1="0" x2="4.24" y2="1" width="0.127" layer="21"/>
-<wire x1="4.24" y1="1" x2="5.24" y2="1" width="0.127" layer="21"/>
-<wire x1="5.24" y1="1" x2="5.24" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.12" y1="0" x2="-3.12" y2="4.92" width="0.127" layer="21"/>
+<wire x1="-3.12" y1="4.92" x2="-0.5" y2="4.92" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="4.92" x2="0.5" y2="4.92" width="0.127" layer="21"/>
+<wire x1="0.5" y1="4.92" x2="3.12" y2="4.92" width="0.127" layer="21"/>
+<wire x1="3.12" y1="4.92" x2="3.12" y2="0" width="0.127" layer="21"/>
+<wire x1="3.12" y1="0" x2="2.12" y2="0" width="0.127" layer="21"/>
+<pad name="P1" x="-1.25" y="3.085" drill="0.55"/>
+<pad name="P2" x="0" y="3.085" drill="0.55"/>
+<pad name="P3" x="1.25" y="3.085" drill="0.55"/>
+<pad name="P4" x="-1.25" y="1.835" drill="0.55"/>
+<pad name="P5" x="0" y="1.835" drill="0.55"/>
+<pad name="P6" x="1.25" y="1.835" drill="0.55"/>
+<wire x1="2.12" y1="0" x2="1.12" y2="0" width="0.127" layer="21"/>
+<wire x1="1.12" y1="0" x2="-1.12" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.12" y1="0" x2="-2.12" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.12" y1="0" x2="-3.12" y2="0" width="0.127" layer="21"/>
+<wire x1="0.5" y1="4.92" x2="0.5" y2="3.92" width="0.127" layer="21"/>
+<wire x1="0.5" y1="3.92" x2="-0.5" y2="3.92" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="3.92" x2="-0.5" y2="4.92" width="0.127" layer="21"/>
+<wire x1="-2.12" y1="0" x2="-2.12" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.12" y1="1" x2="-1.12" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.12" y1="1" x2="-1.12" y2="0" width="0.127" layer="21"/>
+<wire x1="1.12" y1="0" x2="1.12" y2="1" width="0.127" layer="21"/>
+<wire x1="1.12" y1="1" x2="2.12" y2="1" width="0.127" layer="21"/>
+<wire x1="2.12" y1="1" x2="2.12" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -452,7 +452,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <element name="D19" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="32.24" y="10.91" rot="R270"/>
 <element name="D20" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="33.76" y="35.07" rot="R90"/>
 <element name="D24" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="32.92" y="80.35" rot="R270"/>
-<element name="U$1" library="G125-FV20605L0P" package="G125-FV20605L0P" value="G125-FV20605L0P" x="38.18" y="73.365"/>
+<element name="U$1" library="G125-FV20605L0P" package="G125-FV20605L0P" value="G125-FV20605L0P" x="41.3" y="78.285" rot="MR180"/>
 <element name="U$4" library="Burner" package="BURNER" value="BURNER" x="39.365" y="101.5" rot="MR270"/>
 <element name="U$2" library="Burner" package="BURNER" value="BURNER" x="42.365" y="101.5" rot="R270"/>
 </elements>
@@ -565,8 +565,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="46" y1="84.8" x2="56.35" y2="84.8" width="0.4064" layer="1"/>
 <wire x1="56.35" y1="84.8" x2="56.47" y2="84.92" width="0.4064" layer="1"/>
 <wire x1="40.05" y1="81.4" x2="40" y2="81.45" width="0.4064" layer="1"/>
-<wire x1="40.05" y1="76.45" x2="40.05" y2="81.4" width="0.4064" layer="1"/>
 <contactref element="U$1" pad="P4"/>
+<wire x1="40.05" y1="76.45" x2="40.05" y2="81.4" width="0.4064" layer="1"/>
 <wire x1="40.05" y1="76.45" x2="40.05" y2="75.2" width="0.4064" layer="1"/>
 </signal>
 <signal name="GND">
@@ -840,7 +840,6 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <signal name="V_BURN">
 <contactref element="U$1" pad="P5"/>
 <contactref element="U$1" pad="P2"/>
-<wire x1="41.3" y1="75.2" x2="41.3" y2="76.45" width="0.4064" layer="16"/>
 <contactref element="U$4" pad="H2"/>
 <contactref element="U$4" pad="H3"/>
 <contactref element="U$4" pad="H1"/>
@@ -851,6 +850,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <wire x1="36.3" y1="97.3" x2="36.3" y2="93.1" width="0.6096" layer="16"/>
 <wire x1="36.3" y1="93.1" x2="41.3" y2="88.1" width="0.6096" layer="16"/>
 <wire x1="41.3" y1="88.1" x2="41.3" y2="76.45" width="0.6096" layer="16"/>
+<wire x1="41.3" y1="76.45" x2="41.3" y2="75.2" width="0.6096" layer="16"/>
 </signal>
 </signals>
 <errors>

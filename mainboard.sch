@@ -4397,6 +4397,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M04" device="1.27MM"/>
+<part name="SP7" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5675,6 +5676,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="ST4" gate="G$1" x="58.42" y="73.66" rot="R90"/>
 <instance part="R1" gate="G$1" x="50.8" y="91.44"/>
 <instance part="JP1" gate="G$1" x="-43.18" y="38.1"/>
+<instance part="SP7" gate="G$1" x="-35.56" y="10.16" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -5757,6 +5759,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="-99.06" y1="-55.88" x2="-99.06" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <junction x="-111.76" y="-55.88"/>
+</segment>
+<segment>
+<pinref part="SP7" gate="G$1" pin="P6"/>
+<wire x1="-22.86" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="91"/>
+<label x="-12.7" y="5.08" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="35.56" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
+<label x="-25.4" y="35.56" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="VBURN3" class="0">
@@ -5888,6 +5900,54 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="55.88" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <junction x="58.42" y="91.44"/>
 <label x="73.66" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SP7" gate="G$1" pin="P3"/>
+<wire x1="-48.26" y1="5.08" x2="-58.42" y2="5.08" width="0.1524" layer="91"/>
+<label x="-58.42" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="SP7" gate="G$1" pin="P2"/>
+<wire x1="-48.26" y1="10.16" x2="-58.42" y2="10.16" width="0.1524" layer="91"/>
+<label x="-58.42" y="10.16" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="4"/>
+<wire x1="-38.1" y1="43.18" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
+<label x="-25.4" y="43.18" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="D-" class="0">
+<segment>
+<pinref part="SP7" gate="G$1" pin="P1"/>
+<wire x1="-48.26" y1="15.24" x2="-58.42" y2="15.24" width="0.1524" layer="91"/>
+<label x="-58.42" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="3"/>
+<wire x1="-38.1" y1="40.64" x2="-25.4" y2="40.64" width="0.1524" layer="91"/>
+<label x="-25.4" y="40.64" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="ID" class="0">
+<segment>
+<pinref part="SP7" gate="G$1" pin="P5"/>
+<wire x1="-22.86" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="91"/>
+<label x="-12.7" y="10.16" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="D+" class="0">
+<segment>
+<pinref part="SP7" gate="G$1" pin="P4"/>
+<wire x1="-22.86" y1="15.24" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
+<label x="-12.7" y="15.24" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="38.1" x2="-25.4" y2="38.1" width="0.1524" layer="91"/>
+<label x="-25.4" y="38.1" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 </nets>
