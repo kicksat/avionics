@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -275,7 +275,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <library name="TapeAntenna">
 <packages>
 <package name="TAPEANTENNA">
-<smd name="P$1" x="0" y="0" dx="4" dy="12" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="8" dy="12" layer="1"/>
 <pad name="P$2" x="0" y="0" drill="2.2" rot="R90"/>
 </package>
 </packages>

@@ -10671,7 +10671,7 @@ distributor RS 112-3794</description>
 <library name="TapeAntenna">
 <packages>
 <package name="TAPEANTENNA">
-<smd name="P$1" x="0" y="0" dx="4" dy="12" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="8" dy="12" layer="1"/>
 <pad name="P$2" x="0" y="0" drill="2.2" rot="R90"/>
 </package>
 </packages>
@@ -10861,8 +10861,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <attribute name="OC_FARNELL" value="unknown" x="68.05" y="41.65" size="1.778" layer="27" display="off"/>
 </element>
 <element name="B1" library="Balun" package="BALUN" value="BALUN" x="49" y="53.5" smashed="yes" rot="R90"/>
-<element name="U$1" library="TapeAntenna" package="TAPEANTENNA" value="TAPEANTENNA" x="31.5" y="49" rot="MR0"/>
-<element name="U$2" library="TapeAntenna" package="TAPEANTENNA" value="TAPEANTENNA" x="66.5" y="49" rot="MR0"/>
+<element name="U$1" library="TapeAntenna" package="TAPEANTENNA" value="TAPEANTENNA" x="33.5" y="49" rot="MR0"/>
+<element name="U$2" library="TapeAntenna" package="TAPEANTENNA" value="TAPEANTENNA" x="64.5" y="49" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -10883,8 +10883,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <via x="82" y="16" extent="1-16" drill="2.2" diameter="4"/>
 <polygon width="0.4064" layer="16">
 <vertex x="0" y="58"/>
-<vertex x="35" y="58"/>
-<vertex x="35" y="40"/>
+<vertex x="40" y="58"/>
+<vertex x="40" y="40"/>
 <vertex x="0" y="40"/>
 <vertex x="0" y="8"/>
 <vertex x="8" y="8"/>
@@ -10893,8 +10893,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <vertex x="90" y="8"/>
 <vertex x="98" y="8"/>
 <vertex x="98" y="40"/>
-<vertex x="63" y="40"/>
-<vertex x="63" y="58"/>
+<vertex x="58" y="40"/>
+<vertex x="58" y="58"/>
 <vertex x="98" y="58"/>
 <vertex x="98" y="90"/>
 <vertex x="90" y="90"/>
@@ -10911,16 +10911,16 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="U$1" pad="P$1"/>
 <contactref element="U$1" pad="P$2"/>
 <wire x1="48.6" y1="54.475" x2="46.925" y2="54.475" width="0.4064" layer="1"/>
-<wire x1="46.925" y1="54.475" x2="36.975" y2="54.475" width="3" layer="1"/>
-<wire x1="36.975" y1="54.475" x2="31.5" y2="49" width="3" layer="1"/>
+<wire x1="46.925" y1="54.475" x2="38.975" y2="54.475" width="3" layer="1"/>
+<wire x1="38.975" y1="54.475" x2="33.5" y2="49" width="3" layer="1"/>
 </signal>
 <signal name="N$3">
 <contactref element="B1" pad="P3"/>
 <contactref element="U$2" pad="P$1"/>
 <contactref element="U$2" pad="P$2"/>
 <wire x1="49.4" y1="54.475" x2="51.075" y2="54.475" width="0.4064" layer="1"/>
-<wire x1="51.075" y1="54.475" x2="61.025" y2="54.475" width="3" layer="1"/>
-<wire x1="61.025" y1="54.475" x2="66.5" y2="49" width="3" layer="1"/>
+<wire x1="51.075" y1="54.475" x2="59.025" y2="54.475" width="3" layer="1"/>
+<wire x1="59.025" y1="54.475" x2="64.5" y2="49" width="3" layer="1"/>
 </signal>
 </signals>
 </board>
