@@ -4351,9 +4351,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+7" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="U9" library="Micrel" deviceset="MIC803-31D3VM3TR" device="" value="MIC803"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0.75R"/>
-<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="470R"/>
-<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="0.75R"/>
+<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="470R"/>
+<part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="T8" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device=""/>
 <part name="T7" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device=""/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
