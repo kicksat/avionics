@@ -97,7 +97,7 @@
 <layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
 <layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
@@ -7444,6 +7444,11 @@ Please make sure your boards conform to these design rules.</description>
 </signals>
 <errors>
 <approved hash="19,1,bf0bc965f79081fe"/>
+<approved hash="19,16,71c3ffadfcc772a9"/>
+<approved hash="19,16,b5c0c3aec0c7b6a9"/>
+<approved hash="19,16,69c307ad04c86aa6"/>
+<approved hash="19,16,71c03fae3d3a7354"/>
+<approved hash="19,16,d5c073ae70c2d6ac"/>
 <approved hash="19,1,99a49b9e9f249d1e"/>
 <approved hash="19,16,a6d76ced6e59a463"/>
 <approved hash="19,16,e2d798ed9a41e07b"/>
