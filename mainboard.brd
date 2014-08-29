@@ -138,10 +138,10 @@
 <wire x1="88.17" y1="95.885" x2="2" y2="95.885" width="0" layer="20"/>
 <wire x1="2" y1="95.885" x2="0" y2="93.885" width="0" layer="20" curve="90"/>
 <text x="5.63" y="21.37" size="0.8128" layer="25" rot="SR270">Batteries</text>
-<text x="7.38" y="20.57" size="0.8128" layer="25">+</text>
-<text x="7.38" y="13.61" size="0.8128" layer="25">+</text>
-<text x="8.01" y="24.75" size="0.8128" layer="25" rot="R90">-</text>
-<text x="7.72" y="17.71" size="0.8128" layer="25" rot="R90">-</text>
+<text x="7.5324" y="20.615721875" size="0.8128" layer="25">+</text>
+<text x="7.48668125" y="13.569359375" size="0.8128" layer="25">+</text>
+<text x="8.18271875" y="24.75" size="0.8128" layer="25" rot="R90">-</text>
+<text x="8.146721875" y="17.71" size="0.8128" layer="25" rot="R90">-</text>
 <text x="35.98" y="40.4" size="0.8128" layer="25" rot="R90">Burn Wire 3</text>
 <text x="11.54" y="71.85" size="0.6096" layer="25">U6</text>
 <text x="30.97" y="63.67" size="0.8128" layer="25" rot="R90">Teensy 3.1</text>
