@@ -284,12 +284,12 @@
 <wire x1="0.5" y1="4.92" x2="3.12" y2="4.92" width="0.127" layer="21"/>
 <wire x1="3.12" y1="4.92" x2="3.12" y2="0" width="0.127" layer="21"/>
 <wire x1="3.12" y1="0" x2="2.12" y2="0" width="0.127" layer="21"/>
-<pad name="P1" x="-1.25" y="3.085" drill="0.55"/>
-<pad name="P2" x="0" y="3.085" drill="0.55"/>
-<pad name="P3" x="1.25" y="3.085" drill="0.55"/>
-<pad name="P4" x="-1.25" y="1.835" drill="0.55"/>
-<pad name="P5" x="0" y="1.835" drill="0.55"/>
-<pad name="P6" x="1.25" y="1.835" drill="0.55"/>
+<pad name="P1" x="-1.25" y="3.085" drill="0.55" diameter="1.05"/>
+<pad name="P2" x="0" y="3.085" drill="0.55" diameter="1.05"/>
+<pad name="P3" x="1.25" y="3.085" drill="0.55" diameter="1.05"/>
+<pad name="P4" x="-1.25" y="1.835" drill="0.55" diameter="1.05"/>
+<pad name="P5" x="0" y="1.835" drill="0.55" diameter="1.05"/>
+<pad name="P6" x="1.25" y="1.835" drill="0.55" diameter="1.05"/>
 <wire x1="2.12" y1="0" x2="1.12" y2="0" width="0.127" layer="21"/>
 <wire x1="1.12" y1="0" x2="-1.12" y2="0" width="0.127" layer="21"/>
 <wire x1="-1.12" y1="0" x2="-2.12" y2="0" width="0.127" layer="21"/>
