@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
@@ -28,7 +28,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
@@ -112,33 +112,36 @@
 <text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="SOLAR_CELL">
-<wire x1="-1.4391" y1="7.317" x2="-1.4391" y2="-24.1379" width="0.127" layer="29"/>
-<wire x1="-1.4391" y1="7.5511" x2="-1.4391" y2="-26.5357" width="0.127" layer="21"/>
-<wire x1="-1.4391" y1="-26.5357" x2="2.850415625" y2="-23.6655" width="0.127" layer="21"/>
-<wire x1="2.850415625" y1="-23.6655" x2="13.45291875" y2="7.5511" width="0.127" layer="21"/>
-<wire x1="13.45291875" y1="7.5511" x2="-1.4391" y2="7.5511" width="0.127" layer="21"/>
-<rectangle x1="-3.4627" y1="1.8822" x2="-2.274" y2="4.1164" layer="29"/>
-<rectangle x1="-3.462" y1="1.8781" x2="-2.2734" y2="4.1123" layer="31"/>
-<smd name="1" x="-2.89888125" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<text x="-3.18408125" y="4.1814" size="1.27" layer="21">-</text>
+<wire x1="-49.6991" y1="30.177" x2="-49.6991" y2="-1.0849" width="0.127" layer="29"/>
+<wire x1="-49.6991" y1="-1.0849" x2="-45.40984375" y2="2.031390625" width="0.127" layer="29"/>
+<wire x1="-45.40984375" y1="2.031390625" x2="-35.8561" y2="30.4111" width="0.127" layer="29"/>
+<wire x1="-35.8561" y1="30.4111" x2="-49.673909375" y2="30.4111" width="0.127" layer="29"/>
+<wire x1="-49.6991" y1="30.4111" x2="-49.6991" y2="-1.7707" width="0.127" layer="21"/>
+<wire x1="-49.6991" y1="-1.7707" x2="-45.409584375" y2="0.4645" width="0.127" layer="21"/>
+<wire x1="-45.409584375" y1="0.4645" x2="-35.44208125" y2="30.4111" width="0.127" layer="21"/>
+<wire x1="-35.44208125" y1="30.4111" x2="-49.6991" y2="30.4111" width="0.127" layer="21"/>
+<rectangle x1="-51.7227" y1="24.7422" x2="-50.534" y2="26.9764" layer="29"/>
+<rectangle x1="-51.722" y1="24.7381" x2="-50.5334" y2="26.9723" layer="31"/>
+<smd name="1" x="-51.15888125" y="25.8591" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<smd name="2" x="-46.0726" y="27.8714" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<text x="-51.44408125" y="27.0414" size="1.27" layer="21">-</text>
 <polygon width="0.1524" layer="1">
-<vertex x="13.45291875" y="7.5511"/>
-<vertex x="-1.4391" y="7.5511"/>
-<vertex x="-1.4391" y="-26.5357"/>
-<vertex x="2.850415625" y="-23.6655"/>
+<vertex x="-35.8561" y="30.4111"/>
+<vertex x="-49.6991" y="30.4111"/>
+<vertex x="-49.6991" y="-1.0849"/>
+<vertex x="-45.409584375" y="2.031390625"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="-1.4391" y="7.5511"/>
-<vertex x="13.45291875" y="7.5511"/>
-<vertex x="2.850415625" y="-23.6655"/>
-<vertex x="-1.4391" y="-26.5357"/>
+<vertex x="-49.6991" y="30.4111"/>
+<vertex x="-35.8561" y="30.4111"/>
+<vertex x="-45.409584375" y="2.031390625"/>
+<vertex x="-49.6991" y="-1.0849"/>
 </polygon>
 <polygon width="0.127" layer="31">
-<vertex x="13.45291875" y="7.5511"/>
-<vertex x="-1.4391" y="7.5511"/>
-<vertex x="-1.4391" y="-26.5357"/>
-<vertex x="2.850415625" y="-23.6655"/>
+<vertex x="-35.8561" y="30.4111"/>
+<vertex x="-49.6991" y="30.4111"/>
+<vertex x="-49.6991" y="-1.1357"/>
+<vertex x="-45.409584375" y="2.031390625"/>
 </polygon>
 </package>
 </packages>
