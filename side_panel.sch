@@ -384,7 +384,7 @@
 <part name="D9" library="phonesat" deviceset="SB_DIODE" device=""/>
 <part name="D10" library="phonesat" deviceset="SB_DIODE" device=""/>
 <part name="D11" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D15" library="phonesat" deviceset="SB_DIODE" device=""/>
+<part name="D12" library="phonesat" deviceset="SB_DIODE" device=""/>
 <part name="D7" library="phonesat" deviceset="SB_DIODE" device=""/>
 <part name="U$1" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
@@ -488,7 +488,7 @@
 <instance part="D11" gate="G$1" x="81.28" y="22.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.375" y="20.574" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="D15" gate="G$1" x="81.28" y="7.62" smashed="yes" rot="R90">
+<instance part="D12" gate="G$1" x="81.28" y="7.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="79.375" y="5.334" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="D7" gate="G$1" x="81.28" y="81.28" smashed="yes" rot="R90">
@@ -543,7 +543,7 @@
 <wire x1="17.78" y1="-2.54" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="POS"/>
 <wire x1="81.28" y1="5.08" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="D15" gate="G$1" pin="POS"/>
+<pinref part="D12" gate="G$1" pin="POS"/>
 <wire x1="50.8" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="50.8" y1="-7.62" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
@@ -683,7 +683,7 @@
 <segment>
 <wire x1="81.28" y1="20.32" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="POS"/>
-<pinref part="D15" gate="G$1" pin="NEG"/>
+<pinref part="D12" gate="G$1" pin="NEG"/>
 <pinref part="SL20" gate="G$1" pin="PV+"/>
 <wire x1="86.36" y1="10.16" x2="81.28" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="SL17" gate="G$1" pin="PV-"/>
