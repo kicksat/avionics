@@ -197,48 +197,6 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="Widetronix">
-<packages>
-<package name="BETABATTERY">
-<smd name="V+" x="-4" y="-0.1" dx="2" dy="6" layer="1"/>
-<smd name="V-" x="4" y="-0.1" dx="2" dy="6" layer="1"/>
-<wire x1="-5.1" y1="4.25" x2="5.1" y2="4.25" width="0.127" layer="21"/>
-<wire x1="5.1" y1="4.25" x2="5.1" y2="-4.25" width="0.127" layer="21"/>
-<wire x1="5.1" y1="-4.25" x2="-5.1" y2="-4.25" width="0.127" layer="21"/>
-<wire x1="-5.1" y1="-4.25" x2="-5.1" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-5.1" y1="3.3" x2="-5.1" y2="4.25" width="0.127" layer="21"/>
-<wire x1="-5.1" y1="3.3" x2="-4.2" y2="4.2" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BETABATTERY">
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<pin name="V+" x="0" y="7.62" visible="off" length="middle" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-10.16" visible="off" length="middle" direction="pwr" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BETABATTERY">
-<gates>
-<gate name="G$1" symbol="BETABATTERY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="BETABATTERY">
-<connects>
-<connect gate="G$1" pin="V+" pad="V+"/>
-<connect gate="G$1" pin="V-" pad="V-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -3459,13 +3417,6 @@ distributor RS 112-3794</description>
 <part name="G6" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
 <part name="G1" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
 <part name="G2" library="G125-FV20605L0P" deviceset="G125-FV20605L0P" device=""/>
-<part name="B1" library="Widetronix" deviceset="BETABATTERY" device=""/>
-<part name="B2" library="Widetronix" deviceset="BETABATTERY" device=""/>
-<part name="B3" library="Widetronix" deviceset="BETABATTERY" device=""/>
-<part name="B4" library="Widetronix" deviceset="BETABATTERY" device=""/>
-<part name="B5" library="Widetronix" deviceset="BETABATTERY" device=""/>
-<part name="B6" library="Widetronix" deviceset="BETABATTERY" device=""/>
-<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="ST1" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="M023.5MM_LOCK"/>
 <part name="ST2" library="SparkFun-Connectors" deviceset="M02" device="3.5MM_LOCK" value="M023.5MM_LOCK"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -3568,6 +3519,7 @@ distributor RS 112-3794</description>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="1206" value="22uF"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+5" library="SparkFun" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3622,6 +3574,7 @@ distributor RS 112-3794</description>
 <instance part="GND14" gate="1" x="172.72" y="83.82"/>
 <instance part="P+3" gate="G$1" x="33.02" y="15.24"/>
 <instance part="SUPPLY1" gate="G$1" x="43.18" y="20.32" rot="MR0"/>
+<instance part="P+5" gate="G$1" x="86.36" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -3795,6 +3748,13 @@ distributor RS 112-3794</description>
 <wire x1="50.8" y1="7.62" x2="33.02" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="G$1" pin="3.3V"/>
 <wire x1="33.02" y1="7.62" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VBAT"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -3992,15 +3952,6 @@ distributor RS 112-3794</description>
 <wire x1="228.6" y1="35.56" x2="223.52" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VBACKUP" class="0">
-<segment>
-<pinref part="U6" gate="G$1" pin="VBAT"/>
-<pinref part="C21" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<label x="86.36" y="73.66" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="1"/>
@@ -4084,19 +4035,11 @@ distributor RS 112-3794</description>
 <text x="71.12" y="58.42" size="3.81" layer="95">BW1</text>
 <text x="71.12" y="-2.54" size="3.81" layer="95">BW2</text>
 <text x="71.12" y="-63.5" size="3.81" layer="95">BW3</text>
-<text x="-48.26" y="-68.58" size="1.778" layer="97">Betavoltaic Cells</text>
 <text x="104.14" y="73.66" size="1.778" layer="97">Burn Wires</text>
 <text x="-60.96" y="81.28" size="1.778" layer="97">Solar Panel Current Sensor</text>
 <text x="-175.26" y="81.28" size="1.778" layer="97">Battery Current Sensor</text>
 </plain>
 <instances>
-<instance part="B1" gate="G$1" x="-58.42" y="-83.82"/>
-<instance part="B2" gate="G$1" x="-43.18" y="-83.82"/>
-<instance part="B3" gate="G$1" x="-27.94" y="-83.82"/>
-<instance part="B4" gate="G$1" x="-12.7" y="-83.82"/>
-<instance part="B5" gate="G$1" x="2.54" y="-83.82"/>
-<instance part="B6" gate="G$1" x="17.78" y="-83.82"/>
-<instance part="GND2" gate="1" x="-20.32" y="-104.14"/>
 <instance part="GND33" gate="1" x="104.14" y="27.94"/>
 <instance part="T2" gate="G$1" x="129.54" y="50.8"/>
 <instance part="T1" gate="G$1" x="106.68" y="40.64"/>
@@ -4140,22 +4083,6 @@ distributor RS 112-3794</description>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="V-"/>
-<pinref part="B2" gate="G$1" pin="V-"/>
-<wire x1="-58.42" y1="-93.98" x2="-43.18" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="B3" gate="G$1" pin="V-"/>
-<wire x1="-43.18" y1="-93.98" x2="-27.94" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="B4" gate="G$1" pin="V-"/>
-<wire x1="-27.94" y1="-93.98" x2="-20.32" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="B5" gate="G$1" pin="V-"/>
-<wire x1="-20.32" y1="-93.98" x2="-12.7" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="-93.98" x2="2.54" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="B6" gate="G$1" pin="V-"/>
-<wire x1="2.54" y1="-93.98" x2="17.78" y2="-93.98" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="-20.32" y1="-101.6" x2="-20.32" y2="-93.98" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <wire x1="109.22" y1="35.56" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="T1" gate="G$1" pin="S"/>
@@ -4233,24 +4160,6 @@ distributor RS 112-3794</description>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="30.48" x2="-124.46" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="VBACKUP" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="V+"/>
-<pinref part="B2" gate="G$1" pin="V+"/>
-<wire x1="-58.42" y1="-76.2" x2="-43.18" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="B3" gate="G$1" pin="V+"/>
-<wire x1="-43.18" y1="-76.2" x2="-27.94" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="B4" gate="G$1" pin="V+"/>
-<wire x1="-27.94" y1="-76.2" x2="-12.7" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="B5" gate="G$1" pin="V+"/>
-<wire x1="-12.7" y1="-76.2" x2="2.54" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="B6" gate="G$1" pin="V+"/>
-<wire x1="2.54" y1="-76.2" x2="17.78" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="-76.2" x2="-20.32" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-76.2" x2="-20.32" y2="-68.58" width="0.1524" layer="91"/>
-<label x="-20.32" y="-68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBURN1" class="0">
