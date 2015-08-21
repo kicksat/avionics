@@ -846,6 +846,7 @@ Pogo pins- HW-11044</description>
 <part name="SL9" library="phonesat" deviceset="SOLAR_CELL" device=""/>
 <part name="SL10" library="phonesat" deviceset="SOLAR_CELL" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03X2" device="2X3_SILK_SM"/>
+<part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -907,6 +908,7 @@ Pogo pins- HW-11044</description>
 <attribute name="NAME" x="-93.98" y="-35.56" size="1.778" layer="95"/>
 </instance>
 <instance part="JP1" gate="G$1" x="-35.56" y="15.24"/>
+<instance part="GND3" gate="1" x="-20.32" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -938,6 +940,11 @@ Pogo pins- HW-11044</description>
 <pinref part="SL9" gate="G$1" pin="PV-"/>
 <wire x1="-109.22" y1="-30.48" x2="-104.14" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="-27.94" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RFN" class="0">

@@ -581,6 +581,7 @@ Please make sure your boards conform to these design rules.</description>
 <via x="52.13" y="63.87" extent="1-16" drill="0.6"/>
 <wire x1="52.13" y1="63.87" x2="52.35" y2="63.87" width="0.4064" layer="16"/>
 <wire x1="52.35" y1="63.87" x2="52.56" y2="63.66" width="0.4064" layer="16"/>
+<contactref element="JP1" pad="2"/>
 </signal>
 <signal name="RFN">
 <contactref element="B1" pad="P2"/>
