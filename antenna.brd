@@ -162,6 +162,12 @@
 <circle x="47.5" y="47.7" radius="7.25" width="0.4" layer="22"/>
 <hole x="16.5" y="47.5" drill="2.2"/>
 <hole x="78.5" y="47.5" drill="2.2"/>
+<text x="10.61" y="52.98" size="1.778" layer="20" rot="R270">CUT OUT</text>
+<text x="20.58" y="52.79" size="1.778" layer="20" rot="R270">CUT OUT</text>
+<text x="33.6" y="52.85" size="1.778" layer="20" rot="R270">CUT OUT</text>
+<text x="59.64" y="53.23" size="1.778" layer="20" rot="R270">CUT OUT</text>
+<text x="72.6" y="53.17" size="1.778" layer="20" rot="R270">CUT OUT</text>
+<text x="82.63" y="53.36" size="1.778" layer="20" rot="R270">CUT OUT</text>
 </plain>
 <libraries>
 <library name="con-coax">
