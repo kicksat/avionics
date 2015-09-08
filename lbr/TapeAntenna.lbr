@@ -61,8 +61,8 @@
 <library>
 <packages>
 <package name="TAPEANTENNA">
-<smd name="P$1" x="0" y="0" dx="8" dy="12" layer="1"/>
-<pad name="P$2" x="0" y="0" drill="2.2" rot="R90"/>
+<smd name="P$1" x="0" y="0" dx="10" dy="14" layer="1"/>
+<pad name="P$2" x="0" y="0" drill="2.2" rot="R270"/>
 </package>
 </packages>
 <symbols>
