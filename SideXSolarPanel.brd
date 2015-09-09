@@ -436,56 +436,56 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 </pass>
 </autorouter>
 <elements>
-<element name="S3" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="28.3" y="81.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.65" y="82.07" size="1.27" layer="25"/>
+<element name="S3" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="3" y="68.2" smashed="yes">
+<attribute name="NAME" x="2.23" y="63.85" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D2" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="38.4" y="70.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.3" y="68.4" size="1.27" layer="25" rot="R90"/>
+<element name="D2" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="41.5" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.4" y="74.2" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S18" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="55.9" y="30.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.45" y="29.63" size="1.27" layer="25" rot="R180"/>
+<element name="S18" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="78.1" y="11.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="78.67" y="26.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S17" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.4" y="44.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="80.05" y="44.97" size="1.27" layer="25"/>
+<element name="S17" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="67.4" y="40.1" smashed="yes">
+<attribute name="NAME" x="66.93" y="46.75" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S2" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.1" y="84.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="-0.73" y="89.35" size="1.27" layer="25" rot="R270"/>
+<element name="S2" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.3" y="78.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.53" y="83.55" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S19" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.6" y="27.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.85" y="27.97" size="1.27" layer="25"/>
+<element name="S19" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="52.7" y="33.5" smashed="yes">
+<attribute name="NAME" x="52.13" y="19.75" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S20" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="56.1" y="12.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="71.25" y="12.33" size="1.27" layer="25" rot="R180"/>
+<element name="S20" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="63.5" y="5.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.07" y="20.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S1" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="28.2" y="97.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="12.45" y="98.47" size="1.27" layer="25"/>
+<element name="S1" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="33" y="90.5" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.25" y="91.07" size="1.27" layer="25"/>
 </element>
-<element name="S15" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.6" y="61.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="62.05" y="61.97" size="1.27" layer="25"/>
+<element name="S15" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.4" y="61.4" smashed="yes" rot="R270">
+<attribute name="NAME" x="61.85" y="61.87" size="1.27" layer="25"/>
 </element>
-<element name="S4" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.4" y="68" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.35" y="67.43" size="1.27" layer="25" rot="R180"/>
+<element name="S4" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="15.2" y="44.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="15.77" y="58.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S8" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.9" y="34.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="22.05" y="33.83" size="1.27" layer="25" rot="R180"/>
+<element name="S8" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="23" y="24.3" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.47" y="37.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S7" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="28.4" y="48" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.65" y="48.57" size="1.27" layer="25"/>
+<element name="S7" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="2.8" y="29" smashed="yes">
+<attribute name="NAME" x="2.23" y="16.25" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S9" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="28.2" y="31.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.45" y="32.07" size="1.27" layer="25"/>
+<element name="S9" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="35.7" y="16" smashed="yes" rot="R270">
+<attribute name="NAME" x="21.95" y="16.47" size="1.27" layer="25"/>
 </element>
-<element name="S10" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="9.1" y="17.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.45" y="16.93" size="1.27" layer="25" rot="R180"/>
+<element name="S10" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="18.3" y="1.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.65" y="1.03" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S5" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="28.3" y="64.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.35" y="64.97" size="1.27" layer="25"/>
+<element name="S5" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="24.2" y="68.7" smashed="yes">
+<attribute name="NAME" x="23.73" y="73.75" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S6" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.4" y="50.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.65" y="50.33" size="1.27" layer="25" rot="R180"/>
+<element name="S6" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="36.1" y="44" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.67" y="39.25" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D1" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="37.6" y="85.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.9" y="90.5" size="1.27" layer="25" rot="R270"/>
+<element name="D1" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="34.2" y="79.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.5" y="84.6" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="D3" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="37.5" y="57.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.9" y="62.7" size="1.27" layer="25" rot="R270"/>
@@ -499,11 +499,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <element name="D6" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="45.5" y="88.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.2" y="82.6" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D7" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="46.1" y="68.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="45.4" y="74.7" size="1.27" layer="25" rot="R270"/>
+<element name="D7" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="42.4" y="68.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.7" y="74.8" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D8" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="46.6" y="52.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="45.9" y="58.7" size="1.27" layer="25" rot="R270"/>
+<element name="D8" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="44.3" y="57.3" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.6" y="63.4" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="D9" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="46.6" y="34.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.9" y="40.6" size="1.27" layer="25" rot="R270"/>
@@ -514,23 +514,23 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <element name="D11" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="46" y="97.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="43" y="97.8" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="D12" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="52.4" y="98.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="58.6" y="99.3" size="1.27" layer="25" rot="R180"/>
+<element name="D12" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="78.1" y="86.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="77.7" y="93.1" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S11" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.3" y="95.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="60.15" y="96.37" size="1.27" layer="25"/>
+<element name="S11" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="65.1" y="94.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.95" y="95.17" size="1.27" layer="25"/>
 </element>
-<element name="S16" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="55.5" y="47.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="71.45" y="46.73" size="1.27" layer="25" rot="R180"/>
+<element name="S16" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="52.8" y="48" smashed="yes" rot="R90">
+<attribute name="NAME" x="68.75" y="47.43" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S12" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="54.9" y="81.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="68.75" y="81.43" size="1.27" layer="25" rot="R180"/>
+<element name="S12" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="48.8" y="80" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.65" y="79.63" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S14" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="55.4" y="64.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="59.35" y="63.83" size="1.27" layer="25" rot="R180"/>
+<element name="S14" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="46.2" y="63.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.15" y="62.93" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S13" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.5" y="78.7" smashed="yes" rot="R270">
-<attribute name="NAME" x="59.75" y="79.27" size="1.27" layer="25"/>
+<element name="S13" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="66.6" y="76.9" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.85" y="77.47" size="1.27" layer="25"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="MOLEX-1X3_LOCK" value="" x="43.405" y="49.5" rot="MR0"/>
 </elements>
@@ -542,11 +542,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S14" pad="2"/>
 <contactref element="S11" pad="1"/>
 <contactref element="S13" pad="2"/>
-<wire x1="78.5114" y1="76.5126" x2="76.2991" y2="97.4893" width="0" layer="19" extent="1-1"/>
-<wire x1="51.9009" y1="80.2107" x2="78.5114" y2="76.5126" width="0" layer="19" extent="1-1"/>
-<wire x1="45.5" y1="90.15" x2="51.9009" y2="80.2107" width="0" layer="19" extent="1-1"/>
-<wire x1="46.1" y1="69.8" x2="51.9009" y2="80.2107" width="0" layer="19" extent="1-1"/>
-<wire x1="50.3886" y1="66.5874" x2="46.1" y2="69.8" width="0" layer="19" extent="1-1"/>
+<wire x1="71.6114" y1="74.7126" x2="68.0991" y2="96.2893" width="0" layer="19" extent="1-1"/>
+<wire x1="45.5" y1="90.15" x2="68.0991" y2="96.2893" width="0" layer="19" extent="1-1"/>
+<wire x1="45.8009" y1="78.4107" x2="45.5" y2="90.15" width="0" layer="19" extent="1-1"/>
+<wire x1="42.4" y1="69.9" x2="45.8009" y2="78.4107" width="0" layer="19" extent="1-1"/>
+<wire x1="41.1886" y1="65.6874" x2="42.4" y2="69.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="D7" pad="POS"/>
@@ -555,26 +555,26 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S13" pad="1"/>
 <contactref element="S16" pad="2"/>
 <contactref element="S15" pad="2"/>
-<wire x1="78.6114" y1="59.3126" x2="76.4991" y2="80.2893" width="0" layer="19" extent="1-1"/>
-<wire x1="52.4009" y1="62.8107" x2="78.6114" y2="59.3126" width="0" layer="19" extent="1-1"/>
-<wire x1="46.1" y1="66.75" x2="52.4009" y2="62.8107" width="0" layer="19" extent="1-1"/>
-<wire x1="46.6" y1="53.8" x2="52.4009" y2="62.8107" width="0" layer="19" extent="1-1"/>
-<wire x1="50.4886" y1="49.4874" x2="46.6" y2="53.8" width="0" layer="19" extent="1-1"/>
+<wire x1="78.4114" y1="59.2126" x2="69.5991" y2="78.4893" width="0" layer="19" extent="1-1"/>
+<wire x1="42.4" y1="66.85" x2="69.5991" y2="78.4893" width="0" layer="19" extent="1-1"/>
+<wire x1="43.2009" y1="61.9107" x2="42.4" y2="66.85" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="58.5" x2="43.2009" y2="61.9107" width="0" layer="19" extent="1-1"/>
+<wire x1="47.7886" y1="50.1874" x2="44.3" y2="58.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="S1" pad="2"/>
 <contactref element="D1" pad="NEG"/>
 <contactref element="D11" pad="POS"/>
 <contactref element="S2" pad="2"/>
-<wire x1="33.2114" y1="95.7126" x2="44.15" y2="97.3" width="0" layer="19" extent="1-1"/>
-<wire x1="37.6" y1="86.7" x2="33.2114" y2="95.7126" width="0" layer="19" extent="1-1"/>
-<wire x1="3.0886" y1="86.5874" x2="33.2114" y2="95.7126" width="0" layer="19" extent="1-1"/>
+<wire x1="38.0114" y1="88.3126" x2="44.15" y2="97.3" width="0" layer="19" extent="1-1"/>
+<wire x1="34.2" y1="80.8" x2="38.0114" y2="88.3126" width="0" layer="19" extent="1-1"/>
+<wire x1="3.2886" y1="80.7874" x2="34.2" y2="80.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_SOLAR">
 <contactref element="D12" pad="NEG"/>
 <contactref element="D11" pad="NEG"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="47.2" y1="97.3" x2="53.6" y2="98.9" width="0" layer="19" extent="1-1"/>
+<wire x1="47.2" y1="97.3" x2="78.1" y2="88.1" width="0" layer="19" extent="1-1"/>
 <wire x1="40.865" y1="49.373" x2="47.2" y2="97.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
@@ -583,20 +583,32 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <polygon width="0.2" layer="16" thermals="no">
 <vertex x="81.73" y="99"/>
 <vertex x="0" y="99"/>
-<vertex x="0" y="0"/>
-<vertex x="81.73" y="0"/>
+<vertex x="0" y="4"/>
+<vertex x="9" y="4"/>
+<vertex x="9" y="0"/>
+<vertex x="10.6" y="0"/>
+<vertex x="10.6" y="-3"/>
+<vertex x="34.4" y="-3"/>
+<vertex x="34.4" y="0"/>
+<vertex x="47.3" y="0"/>
+<vertex x="47.3" y="-3"/>
+<vertex x="71.2" y="-3"/>
+<vertex x="71.2" y="0"/>
+<vertex x="72.73" y="0"/>
+<vertex x="72.73" y="4"/>
+<vertex x="81.73" y="4"/>
 </polygon>
 <contactref element="S9" pad="1"/>
 <contactref element="S10" pad="1"/>
 <contactref element="S20" pad="1"/>
 <contactref element="S19" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="53.1009" y1="11.3107" x2="76.5991" y2="28.9893" width="0" layer="19" extent="1-1"/>
-<wire x1="46.3" y1="23.05" x2="53.1009" y2="11.3107" width="0" layer="19" extent="1-1"/>
+<wire x1="46.3" y1="23.05" x2="51.1107" y2="36.4991" width="0" layer="19" extent="1-1"/>
 <wire x1="38.6" y1="21.55" x2="46.3" y2="23.05" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1991" y1="33.1893" x2="38.6" y2="21.55" width="0" layer="19" extent="1-1"/>
-<wire x1="6.1009" y1="15.9107" x2="31.1991" y2="33.1893" width="0" layer="19" extent="1-1"/>
-<wire x1="43.405" y1="49.627" x2="31.1991" y2="33.1893" width="0" layer="19" extent="1-1"/>
+<wire x1="38.6991" y1="17.5893" x2="38.6" y2="21.55" width="0" layer="19" extent="1-1"/>
+<wire x1="43.405" y1="49.627" x2="51.1107" y2="36.4991" width="0" layer="19" extent="1-1"/>
+<wire x1="65.0893" y1="2.3009" x2="46.3" y2="23.05" width="0" layer="19" extent="1-1"/>
+<wire x1="15.3009" y1="0.0107" x2="38.6991" y2="17.5893" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="D8" pad="POS"/>
@@ -605,11 +617,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S18" pad="2"/>
 <contactref element="S15" pad="1"/>
 <contactref element="S17" pad="2"/>
-<wire x1="78.4114" y1="42.3126" x2="76.5991" y2="63.0893" width="0" layer="19" extent="1-1"/>
-<wire x1="52.5009" y1="45.7107" x2="78.4114" y2="42.3126" width="0" layer="19" extent="1-1"/>
-<wire x1="46.6" y1="50.75" x2="52.5009" y2="45.7107" width="0" layer="19" extent="1-1"/>
-<wire x1="46.6" y1="35.9" x2="52.5009" y2="45.7107" width="0" layer="19" extent="1-1"/>
-<wire x1="50.8886" y1="32.3874" x2="46.6" y2="35.9" width="0" layer="19" extent="1-1"/>
+<wire x1="69.5874" y1="45.1114" x2="76.3991" y2="62.9893" width="0" layer="19" extent="1-1"/>
+<wire x1="49.8009" y1="46.4107" x2="69.5874" y2="45.1114" width="0" layer="19" extent="1-1"/>
+<wire x1="44.3" y1="55.45" x2="49.8009" y2="46.4107" width="0" layer="19" extent="1-1"/>
+<wire x1="46.6" y1="35.9" x2="49.8009" y2="46.4107" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9126" y1="6.8886" x2="69.5874" y2="45.1114" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="D2" pad="POS"/>
@@ -618,11 +630,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S4" pad="1"/>
 <contactref element="S5" pad="2"/>
 <contactref element="S6" pad="2"/>
-<wire x1="38.4" y1="72.25" x2="31.2991" y2="83.0893" width="0" layer="19" extent="1-1"/>
-<wire x1="33.3114" y1="62.3126" x2="38.4" y2="72.25" width="0" layer="19" extent="1-1"/>
-<wire x1="37.5" y1="58.8" x2="33.3114" y2="62.3126" width="0" layer="19" extent="1-1"/>
-<wire x1="5.4009" y1="66.4107" x2="33.3114" y2="62.3126" width="0" layer="19" extent="1-1"/>
-<wire x1="3.3886" y1="53.0874" x2="5.4009" y2="66.4107" width="0" layer="19" extent="1-1"/>
+<wire x1="26.3874" y1="73.7114" x2="41.5" y2="78.05" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="58.8" x2="26.3874" y2="73.7114" width="0" layer="19" extent="1-1"/>
+<wire x1="33.9126" y1="38.9886" x2="37.5" y2="58.8" width="0" layer="19" extent="1-1"/>
+<wire x1="16.7893" y1="41.5009" x2="33.9126" y2="38.9886" width="0" layer="19" extent="1-1"/>
+<wire x1="1.4107" y1="71.1991" x2="26.3874" y2="73.7114" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$39">
 <contactref element="D3" pad="POS"/>
@@ -631,11 +643,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S6" pad="1"/>
 <contactref element="S7" pad="2"/>
 <contactref element="S8" pad="2"/>
-<wire x1="37.5" y1="55.75" x2="31.2991" y2="66.0893" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4114" y1="45.8126" x2="37.5" y2="55.75" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="42.8" x2="33.4114" y2="45.8126" width="0" layer="19" extent="1-1"/>
-<wire x1="5.4009" y1="49.3107" x2="33.4114" y2="45.8126" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8886" y1="36.4874" x2="5.4009" y2="49.3107" width="0" layer="19" extent="1-1"/>
+<wire x1="37.5" y1="55.75" x2="22.6107" y2="71.6991" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="42.8" x2="37.5" y2="55.75" width="0" layer="19" extent="1-1"/>
+<wire x1="37.6893" y1="41.0009" x2="38.1" y2="42.8" width="0" layer="19" extent="1-1"/>
+<wire x1="20.8126" y1="19.2886" x2="37.6893" y2="41.0009" width="0" layer="19" extent="1-1"/>
+<wire x1="4.9874" y1="34.0114" x2="20.8126" y2="19.2886" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
 <contactref element="D9" pad="POS"/>
@@ -644,11 +656,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S20" pad="2"/>
 <contactref element="S17" pad="1"/>
 <contactref element="S19" pad="2"/>
-<wire x1="78.6114" y1="25.2126" x2="76.3991" y2="46.0893" width="0" layer="19" extent="1-1"/>
-<wire x1="52.9009" y1="28.6107" x2="78.6114" y2="25.2126" width="0" layer="19" extent="1-1"/>
-<wire x1="46.6" y1="32.85" x2="52.9009" y2="28.6107" width="0" layer="19" extent="1-1"/>
-<wire x1="46.3" y1="20" x2="52.9009" y2="28.6107" width="0" layer="19" extent="1-1"/>
-<wire x1="51.0886" y1="15.0874" x2="46.3" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="54.8874" y1="38.5114" x2="65.8107" y2="43.0991" width="0" layer="19" extent="1-1"/>
+<wire x1="46.6" y1="32.85" x2="54.8874" y2="38.5114" width="0" layer="19" extent="1-1"/>
+<wire x1="46.3" y1="20" x2="46.6" y2="32.85" width="0" layer="19" extent="1-1"/>
+<wire x1="61.3126" y1="0.2886" x2="46.3" y2="20" width="0" layer="19" extent="1-1"/>
+<wire x1="79.6893" y1="8.9009" x2="61.3126" y2="0.2886" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
 <contactref element="S1" pad="1"/>
@@ -657,11 +669,11 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S3" pad="2"/>
 <contactref element="S2" pad="1"/>
 <contactref element="S4" pad="2"/>
-<wire x1="37.6" y1="83.65" x2="31.1991" y2="99.4893" width="0" layer="19" extent="1-1"/>
-<wire x1="33.3114" y1="79.3126" x2="37.6" y2="83.65" width="0" layer="19" extent="1-1"/>
-<wire x1="38.4" y1="69.2" x2="33.3114" y2="79.3126" width="0" layer="19" extent="1-1"/>
-<wire x1="5.1009" y1="82.8107" x2="33.3114" y2="79.3126" width="0" layer="19" extent="1-1"/>
-<wire x1="3.3886" y1="70.1874" x2="5.1009" y2="82.8107" width="0" layer="19" extent="1-1"/>
+<wire x1="34.2" y1="77.75" x2="35.9991" y2="92.0893" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5" y1="75" x2="34.2" y2="77.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.3009" y1="77.0107" x2="34.2" y2="77.75" width="0" layer="19" extent="1-1"/>
+<wire x1="5.1874" y1="73.2114" x2="5.3009" y2="77.0107" width="0" layer="19" extent="1-1"/>
+<wire x1="13.0126" y1="39.4886" x2="5.1874" y2="73.2114" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$50">
 <contactref element="D4" pad="POS"/>
@@ -670,20 +682,20 @@ This Sunstone Circuits 6 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="S9" pad="2"/>
 <contactref element="S8" pad="1"/>
 <contactref element="S10" pad="2"/>
-<wire x1="38.1" y1="39.75" x2="31.3991" y2="49.5893" width="0" layer="19" extent="1-1"/>
-<wire x1="33.2114" y1="29.4126" x2="38.1" y2="39.75" width="0" layer="19" extent="1-1"/>
-<wire x1="38.6" y1="24.6" x2="33.2114" y2="29.4126" width="0" layer="19" extent="1-1"/>
-<wire x1="5.9009" y1="32.7107" x2="33.2114" y2="29.4126" width="0" layer="19" extent="1-1"/>
-<wire x1="4.0886" y1="19.6874" x2="5.9009" y2="32.7107" width="0" layer="19" extent="1-1"/>
+<wire x1="38.6" y1="24.6" x2="38.1" y2="39.75" width="0" layer="19" extent="1-1"/>
+<wire x1="40.7114" y1="13.8126" x2="38.6" y2="24.6" width="0" layer="19" extent="1-1"/>
+<wire x1="24.5893" y1="21.3009" x2="38.6" y2="24.6" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2886" y1="3.7874" x2="24.5893" y2="21.3009" width="0" layer="19" extent="1-1"/>
+<wire x1="1.2107" y1="31.9991" x2="24.5893" y2="21.3009" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="D6" pad="NEG"/>
 <contactref element="D12" pad="POS"/>
 <contactref element="S12" pad="2"/>
 <contactref element="S11" pad="2"/>
-<wire x1="50.55" y1="98.9" x2="78.3114" y2="93.7126" width="0" layer="19" extent="1-1"/>
-<wire x1="45.5" y1="87.1" x2="50.55" y2="98.9" width="0" layer="19" extent="1-1"/>
-<wire x1="49.8886" y1="83.9874" x2="45.5" y2="87.1" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1114" y1="92.5126" x2="78.1" y2="85.05" width="0" layer="19" extent="1-1"/>
+<wire x1="45.5" y1="87.1" x2="70.1114" y2="92.5126" width="0" layer="19" extent="1-1"/>
+<wire x1="43.7886" y1="82.1874" x2="45.5" y2="87.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 </signal>
