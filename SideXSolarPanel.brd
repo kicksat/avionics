@@ -158,8 +158,8 @@
 <wire x1="81.53" y1="4" x2="72.48" y2="4" width="0.4" layer="121"/>
 <wire x1="72.48" y1="4" x2="72.48" y2="0.2" width="0.4" layer="121"/>
 <rectangle x1="13.1" y1="58.8" x2="28.9" y2="77.8" layer="122"/>
-<hole x="5" y="94" drill="3.4"/>
-<hole x="76.73" y="94" drill="3.4"/>
+<hole x="4.5" y="94.5" drill="3.2"/>
+<hole x="77.23" y="94.5" drill="3.2"/>
 <wire x1="35.365" y1="25.25" x2="46.365" y2="25.25" width="0" layer="20"/>
 <wire x1="35.365" y1="36.25" x2="46.365" y2="36.25" width="0" layer="20"/>
 <wire x1="35.365" y1="36.25" x2="35.365" y2="25.25" width="0" layer="20" curve="180"/>
@@ -170,6 +170,8 @@
 <wire x1="81.73" y1="4" x2="72.73" y2="4" width="0.4064" layer="21"/>
 <wire x1="72.73" y1="4" x2="72.73" y2="0" width="0.4064" layer="21"/>
 <circle x="40.865" y="49.65" radius="7.5" width="0.254" layer="22"/>
+<circle x="4.5" y="94.5" radius="3" width="0.4064" layer="21"/>
+<circle x="77.23" y="94.5" radius="3" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="phonesat">
@@ -449,8 +451,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="S17" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="67.4" y="40.1" smashed="yes">
 <attribute name="NAME" x="66.83" y="35.25" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S2" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.3" y="78.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.65" y="76.77" size="1.27" layer="25"/>
+<element name="S2" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.3" y="78.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.65" y="76.37" size="1.27" layer="25"/>
 </element>
 <element name="S19" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="52.7" y="33.5" smashed="yes">
 <attribute name="NAME" x="52.13" y="19.75" size="1.27" layer="25" rot="R90"/>
@@ -458,8 +460,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="S20" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="63.5" y="5.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.07" y="20.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S1" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="33" y="90.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="17.25" y="91.07" size="1.27" layer="25"/>
+<element name="S1" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="33" y="90" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.25" y="90.57" size="1.27" layer="25"/>
 </element>
 <element name="S15" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.4" y="61.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="71.25" y="62.37" size="1.27" layer="25"/>
@@ -598,8 +600,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D1" pad="NEG"/>
 <contactref element="D11" pad="POS"/>
 <contactref element="S2" pad="2"/>
-<wire x1="38.0114" y1="88.3126" x2="27.800090625" y2="86.099584375" width="0.4064" layer="1"/>
-<wire x1="27.800090625" y1="86.099584375" x2="3.2886" y2="80.7874" width="0.4064" layer="1"/>
+<wire x1="38.0114" y1="87.8126" x2="27.800090625" y2="86.099584375" width="0.4064" layer="1"/>
+<wire x1="27.800090625" y1="86.099584375" x2="3.2886" y2="80.3874" width="0.4064" layer="1"/>
 <wire x1="27" y1="92.8" x2="27" y2="86.899675" width="0.4064" layer="1"/>
 <wire x1="27" y1="86.899675" x2="27.800090625" y2="86.099584375" width="0.4064" layer="1"/>
 <wire x1="27" y1="92.8" x2="19.45" y2="92.8" width="0.4064" layer="1"/>
@@ -780,17 +782,17 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="5.312421875" y1="72.67941875" x2="5.1874" y2="73.2114" width="0.4064" layer="1"/>
 <wire x1="18.9" y1="70.6" x2="5.312421875" y2="70.6" width="0.4064" layer="1"/>
 <wire x1="5.312421875" y1="70.6" x2="5.312421875" y2="72.67941875" width="0.4064" layer="1"/>
-<wire x1="5.3009" y1="77.0107" x2="5.3009" y2="73.3249" width="0.4064" layer="1"/>
+<wire x1="5.3009" y1="76.6107" x2="5.3009" y2="73.3249" width="0.4064" layer="1"/>
 <wire x1="5.3009" y1="73.3249" x2="5.1874" y2="73.2114" width="0.4064" layer="1"/>
 <wire x1="30.05" y1="92.8" x2="35.2884" y2="92.8" width="0.4064" layer="1"/>
-<wire x1="35.2884" y1="92.8" x2="35.9991" y2="92.0893" width="0.4064" layer="1"/>
+<wire x1="35.2884" y1="92.8" x2="35.9991" y2="91.5893" width="0.4064" layer="1"/>
 <wire x1="18.9" y1="70.6" x2="18.9" y2="74.5" width="0.4064" layer="1"/>
 <via x="18.9" y="74.5" extent="1-16" drill="0.6"/>
 <wire x1="18.9" y1="74.5" x2="21.6" y2="74.5" width="0.4064" layer="16"/>
 <wire x1="21.6" y1="74.5" x2="39.2" y2="92.1" width="0.4064" layer="16"/>
 <via x="39.2" y="92.1" extent="1-16" drill="0.6"/>
 <wire x1="39.2" y1="92.1" x2="36.0098" y2="92.1" width="0.4064" layer="1"/>
-<wire x1="36.0098" y1="92.1" x2="35.9991" y2="92.0893" width="0.4064" layer="1"/>
+<wire x1="36.0098" y1="92.1" x2="35.9991" y2="91.5893" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$50">
 <contactref element="D4" pad="POS"/>
