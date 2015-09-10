@@ -3306,6 +3306,12 @@ distributor RS 112-3794</description>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
+<part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
+<part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
+<part name="GND41" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND42" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND43" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3864,6 +3870,12 @@ distributor RS 112-3794</description>
 <instance part="U$2" gate="G$1" x="-116.84" y="20.32"/>
 <instance part="C3" gate="G$1" x="-124.46" y="35.56"/>
 <instance part="GND16" gate="1" x="-124.46" y="27.94"/>
+<instance part="R4" gate="G$1" x="81.28" y="35.56" rot="R90"/>
+<instance part="R10" gate="G$1" x="81.28" y="-25.4" rot="R90"/>
+<instance part="R11" gate="G$1" x="81.28" y="-86.36" rot="R90"/>
+<instance part="GND41" gate="1" x="81.28" y="-33.02"/>
+<instance part="GND42" gate="1" x="81.28" y="27.94"/>
+<instance part="GND43" gate="1" x="81.28" y="-93.98"/>
 </instances>
 <busses>
 </busses>
@@ -3947,6 +3959,18 @@ distributor RS 112-3794</description>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="-124.46" y1="30.48" x2="-124.46" y2="33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VBURN1" class="0">
 <segment>
@@ -3987,9 +4011,12 @@ distributor RS 112-3794</description>
 </net>
 <net name="ENAB_BURN1" class="0">
 <segment>
-<wire x1="86.36" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
-<label x="71.12" y="40.64" size="1.778" layer="95"/>
+<wire x1="86.36" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<label x="60.96" y="40.64" size="1.778" layer="95"/>
 <pinref part="R28" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
+<junction x="81.28" y="40.64"/>
 </segment>
 </net>
 <net name="VBURN2" class="0">
@@ -4106,16 +4133,22 @@ distributor RS 112-3794</description>
 </net>
 <net name="ENAB_BURN2" class="0">
 <segment>
-<wire x1="86.36" y1="-20.32" x2="73.66" y2="-20.32" width="0.1524" layer="91"/>
-<label x="71.12" y="-20.32" size="1.778" layer="95"/>
+<wire x1="86.36" y1="-20.32" x2="81.28" y2="-20.32" width="0.1524" layer="91"/>
+<label x="60.96" y="-20.32" size="1.778" layer="95"/>
 <pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="-20.32" x2="73.66" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="81.28" y="-20.32"/>
 </segment>
 </net>
 <net name="ENAB_BURN3" class="0">
 <segment>
-<wire x1="86.36" y1="-81.28" x2="73.66" y2="-81.28" width="0.1524" layer="91"/>
-<label x="71.12" y="-81.28" size="1.778" layer="95"/>
+<wire x1="86.36" y1="-81.28" x2="81.28" y2="-81.28" width="0.1524" layer="91"/>
+<label x="60.96" y="-81.28" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="-81.28" x2="73.66" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="81.28" y="-81.28"/>
 </segment>
 </net>
 <net name="I_SOLAR" class="0">
