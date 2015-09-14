@@ -5392,12 +5392,14 @@
 <wire x1="39.585" y1="12.5" x2="39.585" y2="17.5" width="0.4064" layer="21"/>
 <wire x1="34.085" y1="10" x2="34.085" y2="17.5" width="0.4064" layer="21"/>
 <wire x1="34.085" y1="17.5" x2="39.585" y2="17.5" width="0.4064" layer="21"/>
-<wire x1="39.585" y1="17.5" x2="56.085" y2="17.5" width="0.4064" layer="21"/>
+<wire x1="39.585" y1="17.5" x2="50.585" y2="17.5" width="0.4064" layer="21"/>
+<wire x1="50.585" y1="17.5" x2="56.085" y2="17.5" width="0.4064" layer="21"/>
 <wire x1="56.085" y1="17.5" x2="56.085" y2="14" width="0.4064" layer="21"/>
 <wire x1="34.085" y1="95.885" x2="34.085" y2="78.385" width="0.4064" layer="21"/>
 <wire x1="56.085" y1="78.385" x2="56.085" y2="95.885" width="0.4064" layer="21"/>
-<text x="29.5" y="2.8" size="1.778" layer="21">PROG</text>
-<text x="28" y="7.1" size="1.778" layer="21">FLIGHT</text>
+<text x="28.9" y="1.5" size="1.778" layer="21">PROG</text>
+<text x="27.4" y="5.5" size="1.778" layer="21">FLIGHT</text>
+<wire x1="50.585" y1="12.5" x2="50.585" y2="17.5" width="0.4064" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -5891,16 +5893,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="SWITCH-SPDT">
-<wire x1="2.175" y1="5.815" x2="-2.175" y2="5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="5.815" x2="-2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="-2.175" y1="-5.815" x2="2.175" y2="-5.815" width="0.2032" layer="21"/>
-<wire x1="2.175" y1="-5.815" x2="2.175" y2="5.815" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="2.54" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="0" y="-2.54" drill="1.016" diameter="1.8796"/>
-<text x="-3.81" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<package name="AYZ0202">
+<description>&lt;b&gt;DPDT Slide Switch SMD&lt;/b&gt;
+www.SparkFun.com SKU : Comp-SMDS</description>
+<wire x1="-3.6" y1="1.75" x2="-3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3.6" y1="-1.75" x2="3.6" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="-1.75" x2="3.6" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3.6" y1="1.75" x2="-3.6" y2="1.75" width="0.2032" layer="21"/>
+<smd name="3" x="2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="2" x="0" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="1" x="-2.5" y="2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="6" x="2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="5" x="0" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<smd name="4" x="-2.5" y="-2.825" dx="1" dy="1.15" layer="1"/>
+<text x="-2.54" y="1.143" size="0.4064" layer="25">&gt;Name</text>
+<text x="0.508" y="1.143" size="0.4064" layer="27">&gt;Value</text>
+<hole x="1.5" y="0" drill="0.85"/>
+<hole x="-1.5" y="0" drill="0.85"/>
 </package>
 </packages>
 </library>
@@ -6207,13 +6216,14 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <element name="C4" library="SparkFun-Capacitors" package="0805" value=".1uF" x="-50.3" y="-57.4"/>
 <element name="R12" library="SparkFun-Resistors" package="0805" value="10K" x="-57" y="-62.4"/>
 <element name="R13" library="SparkFun-Resistors" package="0805" value="4.7K" x="-54" y="-62.4"/>
-<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="49.7" y="0">
-<attribute name="PROD_ID" value="PRT-00119" x="49.7" y="0" size="1.778" layer="27" display="off"/>
+<element name="J1" library="SparkFun-Connectors" package="POWER_JACK_PTH_LOCK" value="POWER_JACKPTH_LOCK" x="48.7" y="0">
+<attribute name="PROD_ID" value="PRT-00119" x="48.7" y="0" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$3" library="SparkFun-Boards" package="ARDUINO_PRO_MINI" value="ARDUINO_PRO_MINI" x="74" y="25" rot="R180"/>
-<element name="R14" library="SparkFun-Resistors" package="0805" value="10k" x="-95.9" y="-62.4"/>
-<element name="S1" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="42.9" y="5.8"/>
-<element name="S2" library="SparkFun-Electromechanical" package="SWITCH-SPDT" value="" x="38.3" y="5.8"/>
+<element name="R14" library="SparkFun-Resistors" package="0805" value="4.7k" x="-95.9" y="-62.4"/>
+<element name="S3" library="SparkFun-Electromechanical" package="AYZ0202" value="DPDT" x="40.3" y="4.5" rot="R270">
+<attribute name="PROD_ID" value="SWCH-08179" x="40.3" y="4.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -6528,7 +6538,7 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="ST2" pad="1"/>
 <contactref element="ST1" pad="1"/>
 <contactref element="J1" pad="PWR"/>
-<wire x1="19.23" y1="13.9322" x2="49.7" y2="13.8778" width="0" layer="19" extent="1-1"/>
+<wire x1="19.23" y1="13.9322" x2="48.7" y2="13.8778" width="0" layer="19" extent="1-1"/>
 <wire x1="12.09" y1="17.7878" x2="19.23" y2="13.9322" width="0" layer="19" extent="1-1"/>
 <wire x1="12.09" y1="24.7878" x2="12.09" y2="17.7878" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -6720,8 +6730,8 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 <contactref element="ST1" pad="2"/>
 <contactref element="J1" pad="GNDBREAK"/>
 <contactref element="J1" pad="GND"/>
-<wire x1="49.7254" y1="6.557" x2="53.4616" y2="10.7" width="0" layer="19" extent="1-1"/>
-<wire x1="12.6222" y1="8" x2="49.7254" y2="6.557" width="0" layer="19" extent="1-1"/>
+<wire x1="48.7254" y1="6.557" x2="52.4616" y2="10.7" width="0" layer="19" extent="1-1"/>
+<wire x1="12.6222" y1="8" x2="48.7254" y2="6.557" width="0" layer="19" extent="1-1"/>
 <wire x1="12.09" y1="13.9322" x2="12.6222" y2="8" width="0" layer="19" extent="1-1"/>
 <wire x1="12.09" y1="20.9322" x2="12.09" y2="13.9322" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -6774,23 +6784,23 @@ This Sunstone Circuits 4 Layer .DRU has been set to cover our minimum requiremen
 </signal>
 <signal name="PGM_VCC">
 <contactref element="U$3" pad="21"/>
-<contactref element="S2" pad="3"/>
-<wire x1="38.3" y1="3.26" x2="66.38" y2="19.92" width="0" layer="19" extent="1-1"/>
+<contactref element="S3" pad="5"/>
+<wire x1="66.38" y1="19.92" x2="37.475" y2="4.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="U2" pad="23/A9"/>
-<contactref element="S1" pad="2"/>
-<wire x1="42.9" y1="5.8" x2="52.705" y2="85.89" width="0" layer="19" extent="1-1"/>
+<contactref element="S3" pad="3"/>
+<wire x1="52.705" y1="85.89" x2="43.125" y2="2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PGM_RST">
 <contactref element="U$3" pad="22"/>
-<contactref element="S1" pad="3"/>
-<wire x1="42.9" y1="3.26" x2="66.38" y2="17.38" width="0" layer="19" extent="1-1"/>
+<contactref element="S3" pad="2"/>
+<wire x1="66.38" y1="17.38" x2="43.125" y2="4.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
-<contactref element="S2" pad="2"/>
 <contactref element="U2" pad="VUSB"/>
-<wire x1="38.3" y1="5.8" x2="50.165" y2="90.97" width="0" layer="19" extent="1-1"/>
+<contactref element="S3" pad="6"/>
+<wire x1="50.165" y1="90.97" x2="37.475" y2="2" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
