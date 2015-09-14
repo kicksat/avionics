@@ -852,43 +852,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
-<library name="Burner">
-<packages>
-<package name="BURNER">
-<pad name="H1" x="0" y="0" drill="0.6" diameter="1.27" shape="offset"/>
-<pad name="H2" x="1.27" y="0" drill="0.6" diameter="1.27" shape="offset" rot="R45"/>
-<pad name="H3" x="2.159" y="0.889" drill="0.6" diameter="1.27"/>
-</package>
-</packages>
-<symbols>
-<symbol name="BURNER">
-<wire x1="0" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<pin name="IN" x="0" y="-5.08" length="point"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<circle x="0" y="2.54" radius="2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="BURNER">
-<gates>
-<gate name="G$1" symbol="BURNER" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="BURNER">
-<connects>
-<connect gate="G$1" pin="IN" pad="H1 H2 H3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -934,9 +897,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="S13" library="phonesat" deviceset="SOLAR_CELL" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="POLAR_LOCK"/>
-<part name="U$1" library="Burner" deviceset="BURNER" device=""/>
-<part name="U$2" library="Burner" deviceset="BURNER" device=""/>
-<part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1042,9 +1002,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </instance>
 <instance part="GND2" gate="1" x="172.72" y="60.96"/>
 <instance part="JP1" gate="G$1" x="182.88" y="66.04" rot="MR0"/>
-<instance part="U$1" gate="G$1" x="144.78" y="81.28"/>
-<instance part="U$2" gate="G$1" x="132.08" y="81.28"/>
-<instance part="GND3" gate="1" x="132.08" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -1137,11 +1094,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="63.5" x2="175.26" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="IN"/>
-<wire x1="132.08" y1="73.66" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -1256,15 +1208,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="93.98" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="S11" gate="G$1" pin="PV+"/>
 <wire x1="88.9" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="V_BURN" class="0">
-<segment>
-<pinref part="JP1" gate="G$1" pin="3"/>
-<label x="162.56" y="68.58" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="IN"/>
-<wire x1="175.26" y1="68.58" x2="144.78" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="68.58" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
