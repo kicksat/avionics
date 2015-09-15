@@ -6426,7 +6426,7 @@ Footprint unproven</description>
 <text x="177.8" y="177.8" size="1.778" layer="97">Battery Current Sensor</text>
 <text x="17.78" y="33.02" size="2.54" layer="95">Burn Wire 4</text>
 <text x="104.14" y="149.86" size="1.778" layer="97">Current Limiting Resistors for Burn Wires</text>
-<text x="170.18" y="7.62" size="3.175" layer="94">Zac Manchester</text>
+<text x="172.72" y="7.62" size="3.175" layer="94">Zac Manchester</text>
 <text x="241.3" y="7.62" size="2.54" layer="94">3</text>
 <text x="144.78" y="63.5" size="2.54" layer="95">GPS Power</text>
 </plain>
