@@ -5910,12 +5910,15 @@ Footprint unproven</description>
 <instance part="C20" gate="G$1" x="88.9" y="83.82"/>
 <instance part="P+3" gate="G$1" x="137.16" y="114.3"/>
 <instance part="SUPPLY1" gate="G$1" x="147.32" y="119.38" rot="MR0"/>
-<instance part="GND14" gate="1" x="200.66" y="162.56" rot="MR0"/>
+<instance part="GND14" gate="1" x="218.44" y="162.56" rot="MR0"/>
 <instance part="GND18" gate="1" x="147.32" y="157.48" rot="MR0"/>
-<instance part="U$3" gate="G$1" x="167.64" y="152.4"/>
-<instance part="R14" gate="G$1" x="149.86" y="137.16" rot="R90"/>
-<instance part="GND19" gate="1" x="149.86" y="129.54" rot="MR0"/>
-<instance part="S3" gate="G$1" x="203.2" y="137.16"/>
+<instance part="U$3" gate="G$1" x="167.64" y="152.4" smashed="yes">
+<attribute name="NAME" x="160.02" y="170.942" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.94" y="127" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="187.96" y="137.16" rot="R90"/>
+<instance part="GND19" gate="1" x="187.96" y="129.54" rot="MR0"/>
+<instance part="S3" gate="G$1" x="220.98" y="137.16"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="147.32" y="0"/>
 </instances>
@@ -6018,7 +6021,7 @@ Footprint unproven</description>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="180.34" y1="165.1" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="165.1" x2="218.44" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND@2"/>
 </segment>
 <segment>
@@ -6357,23 +6360,12 @@ Footprint unproven</description>
 <label x="129.54" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N_ENAB_REG" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="7"/>
-<wire x1="157.48" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="144.78" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<junction x="149.86" y="144.78"/>
-<label x="129.54" y="144.78" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PGM_VCC" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
-<wire x1="180.34" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="160.02" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="160.02" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="5"/>
 </segment>
 </net>
@@ -6382,18 +6374,18 @@ Footprint unproven</description>
 <wire x1="195.58" y1="119.38" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="23/A9"/>
 <wire x1="195.58" y1="88.9" x2="185.42" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="119.38" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="142.24" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="3"/>
+<wire x1="226.06" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="137.16" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PGM_RST" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="RST@2"/>
-<wire x1="180.34" y1="162.56" x2="193.04" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="162.56" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="139.7" x2="198.12" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="162.56" x2="213.36" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -6401,10 +6393,10 @@ Footprint unproven</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="VUSB"/>
 <wire x1="154.94" y1="121.92" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="121.92" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="6"/>
-<wire x1="213.36" y1="129.54" x2="208.28" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="129.54" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENAB_GPS" class="0">
@@ -6412,6 +6404,17 @@ Footprint unproven</description>
 <pinref part="U2" gate="G$1" pin="17/A3"/>
 <wire x1="185.42" y1="73.66" x2="226.06" y2="73.66" width="0.1524" layer="91"/>
 <label x="226.06" y="73.66" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="N_ENAB_REG" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="12"/>
+<wire x1="180.34" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="144.78" x2="208.28" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="142.24" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
+<label x="208.28" y="144.78" size="1.778" layer="95" rot="MR0"/>
+<junction x="187.96" y="144.78"/>
 </segment>
 </net>
 </nets>
