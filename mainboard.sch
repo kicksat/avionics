@@ -5789,8 +5789,8 @@ Footprint unproven</description>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="P+6" library="SparkFun" deviceset="3.3V" device=""/>
-<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="68k"/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="33k"/>
+<part name="R22" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="120k"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="68k"/>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+8" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
@@ -5864,6 +5864,8 @@ Footprint unproven</description>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7K"/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun" deviceset="5V" device=""/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="POLAR_LOCK"/>
+<part name="GND24" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7055,7 +7057,7 @@ Footprint unproven</description>
 <description>Connectors</description>
 <plain>
 <text x="185.42" y="134.62" size="1.778" layer="97">Footswitch Connections</text>
-<text x="20.32" y="162.56" size="1.778" layer="97">Solar Panel Connectors</text>
+<text x="22.86" y="162.56" size="1.778" layer="97">Solar Panel Connectors</text>
 <text x="116.84" y="152.4" size="1.778" layer="97">Battery Terminals</text>
 <text x="147.32" y="106.68" size="1.778" layer="97">Rail Switch Connection</text>
 <text x="185.42" y="160.02" size="1.778" layer="97">Charging Jack</text>
@@ -7087,6 +7089,8 @@ Footprint unproven</description>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="147.32" y="0"/>
 <instance part="GND6" gate="1" x="101.6" y="38.1"/>
+<instance part="JP2" gate="G$1" x="83.82" y="86.36"/>
+<instance part="GND24" gate="1" x="93.98" y="78.74"/>
 </instances>
 <busses>
 </busses>
@@ -7138,6 +7142,12 @@ Footprint unproven</description>
 <wire x1="99.06" y1="43.18" x2="101.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="91.44" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="83.82" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBURN3" class="0">
@@ -7263,6 +7273,13 @@ Footprint unproven</description>
 <pinref part="X1" gate="G$1" pin="5"/>
 <wire x1="99.06" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 <label x="116.84" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBURN4" class="0">
+<segment>
+<pinref part="JP2" gate="G$1" pin="3"/>
+<wire x1="91.44" y1="88.9" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
+<label x="99.06" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
