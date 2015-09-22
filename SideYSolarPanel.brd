@@ -167,61 +167,6 @@
 <circle x="76.73" y="94" radius="3" width="0.4064" layer="21"/>
 </plain>
 <libraries>
-<library name="phonesat">
-<packages>
-<package name="SOLAR_CELL">
-<wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
-<wire x1="-0.1435" y1="-24.1379" x2="2.4893" y2="-21.9322" width="0.127" layer="29"/>
-<wire x1="2.4893" y1="-21.9322" x2="12.4206" y2="7.34" width="0.127" layer="29"/>
-<wire x1="12.4206" y1="7.34" x2="-0.1415" y2="7.3382" width="0.127" layer="29"/>
-<wire x1="-0.1273" y1="7.3187" x2="-0.1457" y2="-24.129" width="0.127" layer="21"/>
-<wire x1="-0.1457" y1="-24.129" x2="2.4886" y2="-21.9381" width="0.127" layer="21"/>
-<wire x1="2.4886" y1="-21.9381" x2="12.4039" y2="7.334" width="0.127" layer="21"/>
-<wire x1="12.4039" y1="7.334" x2="-0.1189" y2="7.3343" width="0.127" layer="21"/>
-<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<smd name="1" x="-1.5893" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
-<rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
-<rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
-<polygon width="0" layer="1">
-<vertex x="12.2949" y="7.2551"/>
-<vertex x="-0.0551" y="7.2551"/>
-<vertex x="-0.0551" y="-23.9449"/>
-<vertex x="2.3949" y="-21.8949"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1332" y="7.336"/>
-<vertex x="12.3884" y="7.3467"/>
-<vertex x="12.4534" y="7.3505"/>
-<vertex x="2.5202" y="-21.9422"/>
-<vertex x="-0.0984" y="-24.1319"/>
-<vertex x="-0.1658" y="-24.1874"/>
-<vertex x="-0.1599" y="7.3353"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="12.2977" y="7.2362"/>
-<vertex x="-0.0523" y="7.2362"/>
-<vertex x="-0.0523" y="-23.9638"/>
-<vertex x="2.3977" y="-21.9138"/>
-</polygon>
-<text x="-1.27" y="-6.35" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="SB_DIODE">
-<wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.9" x2="-1.4" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.1" x2="-1.2" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1.1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
-<smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
-<smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.143" y1="-0.762" x2="-1.016" y2="0.762" layer="21"/>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -1186,6 +1131,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="Solar">
+<packages>
+<package name="SOLAR_CELL">
+<wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
+<wire x1="-0.1435" y1="-24.1379" x2="2.4893" y2="-21.9322" width="0.127" layer="29"/>
+<wire x1="2.4893" y1="-21.9322" x2="12.4206" y2="7.34" width="0.127" layer="29"/>
+<wire x1="12.4206" y1="7.34" x2="-0.1415" y2="7.3382" width="0.127" layer="29"/>
+<wire x1="-0.1273" y1="7.3187" x2="-0.1457" y2="-24.129" width="0.127" layer="21"/>
+<wire x1="-0.1457" y1="-24.129" x2="2.4886" y2="-21.9381" width="0.127" layer="21"/>
+<wire x1="2.4886" y1="-21.9381" x2="12.4039" y2="7.334" width="0.127" layer="21"/>
+<wire x1="12.4039" y1="7.334" x2="-0.1189" y2="7.3343" width="0.127" layer="21"/>
+<rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
+<rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
+<smd name="1" x="-1.5893" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
+<polygon width="0.1524" layer="1">
+<vertex x="12.2949" y="7.2551"/>
+<vertex x="-0.0551" y="7.2551"/>
+<vertex x="-0.0551" y="-23.9449"/>
+<vertex x="2.3949" y="-21.8949"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1332" y="7.336"/>
+<vertex x="12.3884" y="7.3467"/>
+<vertex x="12.4534" y="7.3505"/>
+<vertex x="2.5202" y="-21.9422"/>
+<vertex x="-0.0984" y="-24.1319"/>
+<vertex x="-0.1658" y="-24.1874"/>
+<vertex x="-0.1599" y="7.3353"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="12.2977" y="7.2362"/>
+<vertex x="-0.0523" y="7.2362"/>
+<vertex x="-0.0523" y="-23.9638"/>
+<vertex x="2.3977" y="-21.9138"/>
+</polygon>
+</package>
+<package name="SB_DIODE">
+<wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.9" x2="-1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.1" x2="-1.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1.1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
+<smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
+<smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1368,100 +1366,100 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="S3" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="3" y="68.2" smashed="yes">
+<element name="S3" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="3" y="68.2" smashed="yes">
 <attribute name="NAME" x="2.23" y="63.85" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D2" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="18.9" y="69.4" smashed="yes" rot="R270">
+<element name="D2" library="Solar" package="SB_DIODE" value="SB_DIODE" x="18.9" y="69.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="20" y="71.4" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S18" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="78.1" y="11.9" smashed="yes" rot="R180">
+<element name="S18" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="78.1" y="11.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="78.67" y="26.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S17" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="67.4" y="40.1" smashed="yes">
+<element name="S17" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="67.4" y="40.1" smashed="yes">
 <attribute name="NAME" x="66.83" y="35.25" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S2" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="8.3" y="78.2" smashed="yes" rot="R90">
+<element name="S2" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="8.3" y="78.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.65" y="76.37" size="1.27" layer="25"/>
 </element>
-<element name="S19" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="53" y="34.1" smashed="yes">
+<element name="S19" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="53" y="34.1" smashed="yes">
 <attribute name="NAME" x="52.43" y="20.35" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S20" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="63.5" y="5.3" smashed="yes" rot="R180">
+<element name="S20" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="63.5" y="5.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.07" y="20.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S1" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="33" y="90" smashed="yes" rot="R270">
+<element name="S1" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="33" y="90" smashed="yes" rot="R270">
 <attribute name="NAME" x="17.25" y="90.57" size="1.27" layer="25"/>
 </element>
-<element name="S15" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.4" y="61.9" smashed="yes" rot="R270">
+<element name="S15" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="73.4" y="61.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="71.25" y="62.37" size="1.27" layer="25"/>
 </element>
-<element name="S4" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="15.3" y="44.5" smashed="yes" rot="R180">
+<element name="S4" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="15.3" y="44.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.87" y="58.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S8" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="23" y="24.3" smashed="yes" rot="R180">
+<element name="S8" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="23" y="24.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.37" y="34.65" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="S7" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="2.8" y="29" smashed="yes">
+<element name="S7" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="2.8" y="29" smashed="yes">
 <attribute name="NAME" x="2.23" y="16.25" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S9" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="35.7" y="16" smashed="yes" rot="R270">
+<element name="S9" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="35.7" y="16" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.55" y="16.57" size="1.27" layer="25"/>
 </element>
-<element name="S10" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="18.3" y="1.6" smashed="yes" rot="R90">
+<element name="S10" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="18.3" y="1.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.65" y="1.03" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S5" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="24.2" y="69.5" smashed="yes">
+<element name="S5" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="24.2" y="69.5" smashed="yes">
 <attribute name="NAME" x="23.73" y="74.55" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="S6" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="36.1" y="44.9" smashed="yes" rot="R180">
+<element name="S6" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="36.1" y="44.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="36.57" y="58.45" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D1" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="28.2" y="92.8" smashed="yes">
+<element name="D1" library="Solar" package="SB_DIODE" value="SB_DIODE" x="28.2" y="92.8" smashed="yes">
 <attribute name="NAME" x="23.2" y="92.1" size="1.27" layer="25"/>
 </element>
-<element name="D3" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="19.5" y="55.5" smashed="yes" rot="R90">
+<element name="D3" library="Solar" package="SB_DIODE" value="SB_DIODE" x="19.5" y="55.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.1" y="50.4" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D4" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="25.6" y="28.8" smashed="yes" rot="R270">
+<element name="D4" library="Solar" package="SB_DIODE" value="SB_DIODE" x="25.6" y="28.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="26.8" y="29.8" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D5" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="31.3" y="19.1" smashed="yes">
+<element name="D5" library="Solar" package="SB_DIODE" value="SB_DIODE" x="31.3" y="19.1" smashed="yes">
 <attribute name="NAME" x="30.3" y="20.6" size="1.27" layer="25"/>
 </element>
-<element name="D6" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="75.5" y="84.2" smashed="yes" rot="R270">
+<element name="D6" library="Solar" package="SB_DIODE" value="SB_DIODE" x="75.5" y="84.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.7" y="85.2" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D7" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="76.3" y="70.9" smashed="yes" rot="R90">
+<element name="D7" library="Solar" package="SB_DIODE" value="SB_DIODE" x="76.3" y="70.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="79" y="69.7" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D8" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="56.2" y="46.5" smashed="yes" rot="R180">
+<element name="D8" library="Solar" package="SB_DIODE" value="SB_DIODE" x="56.2" y="46.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="57.2" y="45.1" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="D9" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="65.6" y="12.4" smashed="yes" rot="R90">
+<element name="D9" library="Solar" package="SB_DIODE" value="SB_DIODE" x="65.6" y="12.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="65.7" y="7.3" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D10" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="47.9" y="17.7" smashed="yes" rot="R180">
+<element name="D10" library="Solar" package="SB_DIODE" value="SB_DIODE" x="47.9" y="17.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.4" y="16.3" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="D11" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="18.2" y="95.9" smashed="yes" rot="R180">
+<element name="D11" library="Solar" package="SB_DIODE" value="SB_DIODE" x="18.2" y="95.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.5" y="96.5" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="D12" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="36.3" y="95.9" smashed="yes">
+<element name="D12" library="Solar" package="SB_DIODE" value="SB_DIODE" x="36.3" y="95.9" smashed="yes">
 <attribute name="NAME" x="30.2" y="95.2" size="1.27" layer="25"/>
 </element>
-<element name="S11" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="64.8" y="95.6" smashed="yes" rot="R270">
+<element name="S11" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="64.8" y="95.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.65" y="96.07" size="1.27" layer="25"/>
 </element>
-<element name="S16" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="52.8" y="48.6" smashed="yes" rot="R90">
+<element name="S16" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="52.8" y="48.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.65" y="48.13" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S12" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="48.7" y="80.8" smashed="yes" rot="R90">
+<element name="S12" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="48.7" y="80.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.55" y="80.43" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S14" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="46.2" y="63.5" smashed="yes" rot="R90">
+<element name="S14" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="46.2" y="63.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.25" y="63.13" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="S13" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="66.6" y="76.9" smashed="yes" rot="R270">
+<element name="S13" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="66.6" y="76.9" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.85" y="77.47" size="1.27" layer="25"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="MOLEX-1X3_LOCK" value="" x="43.405" y="49.5" rot="MR0"/>
@@ -1552,7 +1550,7 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="GND">
 <contactref element="D5" pad="POS"/>
 <contactref element="D10" pad="POS"/>
-<polygon width="0.2" layer="16" thermals="no">
+<polygon width="1" layer="16" thermals="no">
 <vertex x="81.73" y="4"/>
 <vertex x="81.73" y="95" curve="90"/>
 <vertex x="77.73" y="99"/>
@@ -1600,7 +1598,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="51.4107" y1="39.9893" x2="51.4" y2="40" width="0.4064" layer="1"/>
 <via x="51.4" y="40" extent="1-16" drill="0.6"/>
 <wire x1="51.4" y1="40" x2="51.3" y2="40.1" width="0.4064" layer="16"/>
-<wire x1="51.3" y1="40.1" x2="43.405" y2="49.627" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="D8" pad="POS"/>

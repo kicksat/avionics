@@ -123,122 +123,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="phonesat">
-<packages>
-<package name="SB_DIODE">
-<wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.9" x2="-1.4" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.1" x2="-1.2" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1.1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
-<smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
-<smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.143" y1="-0.762" x2="-1.016" y2="0.762" layer="21"/>
-</package>
-<package name="SOLAR_CELL">
-<wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
-<wire x1="-0.1435" y1="-24.1379" x2="2.4893" y2="-21.9322" width="0.127" layer="29"/>
-<wire x1="2.4893" y1="-21.9322" x2="12.4206" y2="7.34" width="0.127" layer="29"/>
-<wire x1="12.4206" y1="7.34" x2="-0.1415" y2="7.3382" width="0.127" layer="29"/>
-<wire x1="-0.1273" y1="7.3187" x2="-0.1457" y2="-24.129" width="0.127" layer="21"/>
-<wire x1="-0.1457" y1="-24.129" x2="2.4886" y2="-21.9381" width="0.127" layer="21"/>
-<wire x1="2.4886" y1="-21.9381" x2="12.4039" y2="7.334" width="0.127" layer="21"/>
-<wire x1="12.4039" y1="7.334" x2="-0.1189" y2="7.3343" width="0.127" layer="21"/>
-<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<smd name="1" x="-1.5893" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
-<rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
-<rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
-<polygon width="0" layer="1">
-<vertex x="12.2949" y="7.2551"/>
-<vertex x="-0.0551" y="7.2551"/>
-<vertex x="-0.0551" y="-23.9449"/>
-<vertex x="2.3949" y="-21.8949"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1332" y="7.336"/>
-<vertex x="12.3884" y="7.3467"/>
-<vertex x="12.4534" y="7.3505"/>
-<vertex x="2.5202" y="-21.9422"/>
-<vertex x="-0.0984" y="-24.1319"/>
-<vertex x="-0.1658" y="-24.1874"/>
-<vertex x="-0.1599" y="7.3353"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="12.2977" y="7.2362"/>
-<vertex x="-0.0523" y="7.2362"/>
-<vertex x="-0.0523" y="-23.9638"/>
-<vertex x="2.3977" y="-21.9138"/>
-</polygon>
-<text x="-1.27" y="-6.35" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SCHOTTKY">
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
-<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="POS" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-<pin name="NEG" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="SOLAR_PANEL">
-<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<text x="0" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<pin name="PV+" x="-5.08" y="2.54" length="middle"/>
-<pin name="PV-" x="-5.08" y="-2.54" length="middle"/>
-<text x="0" y="5.08" size="1.27" layer="97">TASC</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SB_DIODE" prefix="D">
-<gates>
-<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SB_DIODE">
-<connects>
-<connect gate="G$1" pin="NEG" pad="NEG"/>
-<connect gate="G$1" pin="POS" pad="POS"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SOLAR_CELL">
-<gates>
-<gate name="G$1" symbol="SOLAR_PANEL" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOLAR_CELL">
-<connects>
-<connect gate="G$1" pin="PV+" pad="2"/>
-<connect gate="G$1" pin="PV-" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun">
 <packages>
 </packages>
@@ -7112,6 +6996,120 @@ Standard 8.5x11 US Letter frame</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Solar">
+<packages>
+<package name="SOLAR_CELL">
+<wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
+<wire x1="-0.1435" y1="-24.1379" x2="2.4893" y2="-21.9322" width="0.127" layer="29"/>
+<wire x1="2.4893" y1="-21.9322" x2="12.4206" y2="7.34" width="0.127" layer="29"/>
+<wire x1="12.4206" y1="7.34" x2="-0.1415" y2="7.3382" width="0.127" layer="29"/>
+<wire x1="-0.1273" y1="7.3187" x2="-0.1457" y2="-24.129" width="0.127" layer="21"/>
+<wire x1="-0.1457" y1="-24.129" x2="2.4886" y2="-21.9381" width="0.127" layer="21"/>
+<wire x1="2.4886" y1="-21.9381" x2="12.4039" y2="7.334" width="0.127" layer="21"/>
+<wire x1="12.4039" y1="7.334" x2="-0.1189" y2="7.3343" width="0.127" layer="21"/>
+<rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
+<rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
+<smd name="1" x="-1.5893" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
+<polygon width="0.1524" layer="1">
+<vertex x="12.2949" y="7.2551"/>
+<vertex x="-0.0551" y="7.2551"/>
+<vertex x="-0.0551" y="-23.9449"/>
+<vertex x="2.3949" y="-21.8949"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1332" y="7.336"/>
+<vertex x="12.3884" y="7.3467"/>
+<vertex x="12.4534" y="7.3505"/>
+<vertex x="2.5202" y="-21.9422"/>
+<vertex x="-0.0984" y="-24.1319"/>
+<vertex x="-0.1658" y="-24.1874"/>
+<vertex x="-0.1599" y="7.3353"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="12.2977" y="7.2362"/>
+<vertex x="-0.0523" y="7.2362"/>
+<vertex x="-0.0523" y="-23.9638"/>
+<vertex x="2.3977" y="-21.9138"/>
+</polygon>
+</package>
+<package name="SB_DIODE">
+<wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.9" x2="-1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.1" x2="-1.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1.1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
+<smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
+<smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="SOLAR_PANEL">
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<pin name="PV+" x="-5.08" y="2.54" length="middle"/>
+<pin name="PV-" x="-5.08" y="-2.54" length="middle"/>
+<text x="0" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="5.08" size="1.27" layer="97">TASC</text>
+</symbol>
+<symbol name="SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<pin name="NEG" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="POS" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SOLAR_CELL">
+<gates>
+<gate name="G$1" symbol="SOLAR_PANEL" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOLAR_CELL">
+<connects>
+<connect gate="G$1" pin="PV+" pad="2"/>
+<connect gate="G$1" pin="PV-" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SB_DIODE" prefix="D">
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SB_DIODE">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7122,39 +7120,39 @@ Standard 8.5x11 US Letter frame</description>
 </class>
 </classes>
 <parts>
-<part name="S3" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="D2" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="S18" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S17" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S2" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S19" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S20" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S1" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S15" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S4" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S8" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S7" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S9" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S10" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S5" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S6" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="D1" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D3" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D4" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D5" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D6" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D7" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D8" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D9" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D10" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D11" library="phonesat" deviceset="SB_DIODE" device=""/>
-<part name="D12" library="phonesat" deviceset="SB_DIODE" device=""/>
+<part name="S3" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="D2" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="S18" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S17" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S2" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S19" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S20" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S1" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S15" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S4" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S8" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S7" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S9" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S10" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S5" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S6" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="D1" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D3" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D4" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D5" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D6" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D7" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D8" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D9" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D10" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D11" library="Solar" deviceset="SB_DIODE" device=""/>
+<part name="D12" library="Solar" deviceset="SB_DIODE" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="S11" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S16" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S12" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S14" library="phonesat" deviceset="SOLAR_CELL" device=""/>
-<part name="S13" library="phonesat" deviceset="SOLAR_CELL" device=""/>
+<part name="S11" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S16" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S12" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S14" library="Solar" deviceset="SOLAR_CELL" device=""/>
+<part name="S13" library="Solar" deviceset="SOLAR_CELL" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="POLAR_LOCK"/>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>

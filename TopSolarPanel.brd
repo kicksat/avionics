@@ -141,59 +141,6 @@
 <circle x="67.44" y="36.24" radius="3" width="0.4064" layer="22"/>
 </plain>
 <libraries>
-<library name="phonesat">
-<packages>
-<package name="SOLAR_CELL">
-<wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
-<wire x1="-0.1435" y1="-24.1379" x2="2.4893" y2="-21.9322" width="0.127" layer="29"/>
-<wire x1="2.4893" y1="-21.9322" x2="12.4206" y2="7.34" width="0.127" layer="29"/>
-<wire x1="12.4206" y1="7.34" x2="-0.1415" y2="7.3382" width="0.127" layer="29"/>
-<wire x1="-0.1273" y1="7.3187" x2="-0.1457" y2="-24.129" width="0.127" layer="21"/>
-<wire x1="-0.1457" y1="-24.129" x2="2.4886" y2="-21.9381" width="0.127" layer="21"/>
-<wire x1="2.4886" y1="-21.9381" x2="12.4039" y2="7.334" width="0.127" layer="21"/>
-<wire x1="12.4039" y1="7.334" x2="-0.1189" y2="7.3343" width="0.127" layer="21"/>
-<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<smd name="1" x="-1.5893" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
-<text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
-<rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
-<rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
-<polygon width="0" layer="1">
-<vertex x="12.2949" y="7.2551"/>
-<vertex x="-0.0551" y="7.2551"/>
-<vertex x="-0.0551" y="-23.9449"/>
-<vertex x="2.3949" y="-21.8949"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-0.1332" y="7.336"/>
-<vertex x="12.3884" y="7.3467"/>
-<vertex x="12.4534" y="7.3505"/>
-<vertex x="2.5202" y="-21.9422"/>
-<vertex x="-0.0984" y="-24.1319"/>
-<vertex x="-0.1658" y="-24.1874"/>
-<vertex x="-0.1599" y="7.3353"/>
-</polygon>
-<polygon width="0" layer="31">
-<vertex x="12.2977" y="7.2362"/>
-<vertex x="-0.0523" y="7.2362"/>
-<vertex x="-0.0523" y="-23.9638"/>
-<vertex x="2.3977" y="-21.9138"/>
-</polygon>
-</package>
-<package name="SB_DIODE">
-<wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.9" x2="-1.4" y2="0.9" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="-1.1" x2="-1.2" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-1.2" y1="-1.1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
-<smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
-<smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -243,6 +190,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="Solar">
+<packages>
+<package name="SOLAR_CELL">
+<wire x1="-0.1364" y1="7.317" x2="-0.1435" y2="-24.1379" width="0.127" layer="29"/>
+<wire x1="-0.1435" y1="-24.1379" x2="2.4893" y2="-21.9322" width="0.127" layer="29"/>
+<wire x1="2.4893" y1="-21.9322" x2="12.4206" y2="7.34" width="0.127" layer="29"/>
+<wire x1="12.4206" y1="7.34" x2="-0.1415" y2="7.3382" width="0.127" layer="29"/>
+<wire x1="-0.1273" y1="7.3187" x2="-0.1457" y2="-24.129" width="0.127" layer="21"/>
+<wire x1="-0.1457" y1="-24.129" x2="2.4886" y2="-21.9381" width="0.127" layer="21"/>
+<wire x1="2.4886" y1="-21.9381" x2="12.4039" y2="7.334" width="0.127" layer="21"/>
+<wire x1="12.4039" y1="7.334" x2="-0.1189" y2="7.3343" width="0.127" layer="21"/>
+<rectangle x1="-2.1927" y1="1.8822" x2="-1.004" y2="4.1164" layer="29"/>
+<rectangle x1="-2.192" y1="1.8781" x2="-1.0034" y2="4.1123" layer="31"/>
+<smd name="1" x="-1.5893" y="2.9991" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<smd name="2" x="2.1874" y="5.0114" dx="2.1844" dy="1.0668" layer="1" rot="R90"/>
+<text x="-1.8745" y="4.1814" size="1.27" layer="21">-</text>
+<polygon width="0.1524" layer="1">
+<vertex x="12.2949" y="7.2551"/>
+<vertex x="-0.0551" y="7.2551"/>
+<vertex x="-0.0551" y="-23.9449"/>
+<vertex x="2.3949" y="-21.8949"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.1332" y="7.336"/>
+<vertex x="12.3884" y="7.3467"/>
+<vertex x="12.4534" y="7.3505"/>
+<vertex x="2.5202" y="-21.9422"/>
+<vertex x="-0.0984" y="-24.1319"/>
+<vertex x="-0.1658" y="-24.1874"/>
+<vertex x="-0.1599" y="7.3353"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="12.2977" y="7.2362"/>
+<vertex x="-0.0523" y="7.2362"/>
+<vertex x="-0.0523" y="-23.9638"/>
+<vertex x="2.3977" y="-21.9138"/>
+</polygon>
+</package>
+<package name="SB_DIODE">
+<wire x1="-1.4" y1="0.9" x2="-1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.9" x2="1.4" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.9" x2="1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.9" x2="-1.4" y2="0.9" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1" x2="-0.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1" x2="-0.8" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.1" x2="-1.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1.1" x2="-1.2" y2="-1" width="0.127" layer="21"/>
+<smd name="NEG" x="-1.2" y="0" dx="2.7" dy="1.4" layer="1"/>
+<smd name="POS" x="1.85" y="0" dx="1.4" dy="1.4" layer="1"/>
+<text x="-3.3" y="1.2" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -252,16 +252,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SSC-EAGLE-2Lyr_v1.0.0.3">
-<description language="en">&lt;b&gt;EAGLE Design Rules for *2* Layer Designs (DS)&lt;/b&gt;
+<designrules name="OSHPark-2layer">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
-This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requirements for our double sided products. For questions, comments, suggestions, please contact Sunstone Customer Support: &lt;p&gt;&lt;b&gt;Email:&lt;/b&gt;  mailto:support@sunstone.com&lt;br&gt;&lt;b&gt;Phone:&lt;/b&gt; 800-228-8198.&lt;p&gt; v1.1Mod10/16/07~Layers-core reversal.Distance C/D.Restring%.Supply G%.&lt;p&gt; v1.2 Mod12/06/07~Distance C/D to 20mils.&lt;p&gt;v1.3Mod12/12/07~Supply/Annulus Value to 12.5mils&lt;p&gt;1/15/08 SSC-EAGLE-2Lyr_v1.0.0.3~For Release&lt;p&gt;10/3/08 Description Edit.&lt;p&gt;
-
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;Laen's PCB Order Design Rules&lt;/b&gt;
 &lt;p&gt;
-&lt;i&gt;Attention: Upon running the design check and making modifications, please remember to save any changes before closing the application and sending in your board file to Sunstone Circuits for conversion.&lt;i&gt;</description>
+Please make sure your boards conform to these design rules.</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.0178mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0178mm"/>
-<param name="mtIsolate" value="59mil 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
+<param name="mtCopper" value="0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm"/>
+<param name="mtIsolate" value="1.5011mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -273,12 +277,12 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="20mil"/>
-<param name="mdDrill" value="16mil"/>
+<param name="mdCopperDimension" value="15mil"/>
+<param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="14mil"/>
-<param name="msMicroVia" value="9.9898mm"/>
+<param name="msDrill" value="13mil"/>
+<param name="msMicroVia" value="13mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -287,20 +291,20 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="8mil"/>
-<param name="rlMaxPadTop" value="999mil"/>
-<param name="rlMinPadInner" value="0mil"/>
-<param name="rlMaxPadInner" value="0mil"/>
-<param name="rlMinPadBottom" value="8mil"/>
-<param name="rlMaxPadBottom" value="999mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
-<param name="rlMaxViaOuter" value="999mil"/>
-<param name="rlMinViaInner" value="0mil"/>
-<param name="rlMaxViaInner" value="0mil"/>
-<param name="rlMinMicroViaOuter" value="8mil"/>
-<param name="rlMaxMicroViaOuter" value="999mil"/>
-<param name="rlMinMicroViaInner" value="0mil"/>
-<param name="rlMaxMicroViaInner" value="0mil"/>
+<param name="rlMinPadTop" value="7mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="7mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="7mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="7mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="7mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
@@ -308,8 +312,8 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="3mil"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -325,7 +329,7 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="useDiameter" value="13"/>
-<param name="maxErrors" value="500"/>
+<param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
@@ -421,30 +425,30 @@ This Sunstone Circuits 2 Layer .DRU has been set to cover our minimum requiremen
 </pass>
 </autorouter>
 <elements>
-<element name="SL3" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="59.7" y="15.8" rot="R225"/>
-<element name="D2" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="23.8" y="21.9" smashed="yes">
+<element name="SL3" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="59.7" y="15.8" rot="R225"/>
+<element name="D2" library="Solar" package="SB_DIODE" value="SB_DIODE" x="23.8" y="21.9" smashed="yes">
 <attribute name="NAME" x="18.5" y="21.3" size="1.27" layer="25"/>
 </element>
-<element name="SL5" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="27" y="48.7" rot="R225"/>
-<element name="SL1" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="30.8" y="21.7" rot="R225"/>
-<element name="SL7" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="51.5" y="53.8" rot="R225"/>
-<element name="SL10" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="73.6" y="61.5" rot="R225"/>
-<element name="SL6" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="23.1" y="65.7" rot="R45"/>
-<element name="SL4" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="30.4" y="30.1" rot="R45"/>
-<element name="SL8" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="54.6" y="33.3" rot="R45"/>
-<element name="SL9" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="51.2" y="61.4" rot="R45"/>
-<element name="SL2" library="phonesat" package="SOLAR_CELL" value="SOLAR_CELL" x="7.5" y="19.2" rot="R45"/>
-<element name="D1" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="62.8" y="21.8" smashed="yes" rot="R180">
+<element name="SL5" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="27" y="48.7" rot="R225"/>
+<element name="SL1" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="30.8" y="21.7" rot="R225"/>
+<element name="SL7" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="51.5" y="53.8" rot="R225"/>
+<element name="SL10" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="73.6" y="61.5" rot="R225"/>
+<element name="SL6" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="23.1" y="65.7" rot="R45"/>
+<element name="SL4" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="30.4" y="30.1" rot="R45"/>
+<element name="SL8" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="54.6" y="33.3" rot="R45"/>
+<element name="SL9" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="51.2" y="61.4" rot="R45"/>
+<element name="SL2" library="Solar" package="SOLAR_CELL" value="SOLAR_CELL" x="7.5" y="19.2" rot="R45"/>
+<element name="D1" library="Solar" package="SB_DIODE" value="SB_DIODE" x="62.8" y="21.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="67.9" y="22.3" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="D3" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="67.8" y="39.8" smashed="yes" rot="R90">
+<element name="D3" library="Solar" package="SB_DIODE" value="SB_DIODE" x="67.8" y="39.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="71" y="38.6" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="D4" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="58.5" y="66.1" rot="R180"/>
-<element name="D5" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="29.2" y="37.6" smashed="yes" rot="R270">
+<element name="D4" library="Solar" package="SB_DIODE" value="SB_DIODE" x="58.5" y="66.1" rot="R180"/>
+<element name="D5" library="Solar" package="SB_DIODE" value="SB_DIODE" x="29.2" y="37.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="28.5" y="42.9" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="D6" library="phonesat" package="SB_DIODE" value="SB_DIODE" x="63.5" y="72" rot="R180"/>
+<element name="D6" library="Solar" package="SB_DIODE" value="SB_DIODE" x="63.5" y="72" rot="R180"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="20" y="-13.1" smashed="yes"/>
 <element name="JP5" library="SparkFun-Connectors" package="1X02" value="M02PTH" x="10" y="10" rot="R270"/>
 </elements>
