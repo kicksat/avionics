@@ -7169,7 +7169,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="4.7k" x="57.6" y="76.7" rot="R90"/>
 <element name="R3" library="SparkFun-Resistors" package="0805" value="4.7k" x="57.6" y="72.2" rot="R270"/>
-<element name="R4" library="SparkFun-Resistors" package="0805" value="120k" x="56.5" y="63.2" rot="R90"/>
+<element name="R4" library="SparkFun-Resistors" package="0805" value="110k" x="56.5" y="63.2" rot="R90"/>
 <element name="R5" library="SparkFun-Resistors" package="0805" value="68k" x="56.5" y="59.7" rot="R90"/>
 <element name="C7" library="SparkFun-Capacitors" package="0805" value="2.2nF" x="61.04" y="84.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.802" y="84.1245" size="0.4064" layer="25" rot="R180"/>
