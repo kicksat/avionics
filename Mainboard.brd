@@ -7170,7 +7170,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="4.7k" x="57.6" y="76.7" rot="R90"/>
 <element name="R3" library="SparkFun-Resistors" package="0805" value="4.7k" x="57.6" y="72.2" rot="R270"/>
 <element name="R4" library="SparkFun-Resistors" package="0805" value="110k" x="56.5" y="63.2" rot="R90"/>
-<element name="R5" library="SparkFun-Resistors" package="0805" value="68k" x="56.5" y="59.7" rot="R90"/>
+<element name="R5" library="SparkFun-Resistors" package="0805" value="68k" x="56.5" y="59.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.4745" y="58.638" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="55.497" y="60.084" size="0.4064" layer="27" rot="R90"/>
+</element>
 <element name="C7" library="SparkFun-Capacitors" package="0805" value="2.2nF" x="61.04" y="84.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.802" y="84.1245" size="0.4064" layer="25" rot="R180"/>
 <attribute name="VALUE" x="59.486" y="85.177" size="0.4064" layer="27" rot="R180"/>
@@ -7294,6 +7297,10 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="JP7" library="SparkFun-Connectors" package="MOLEX-1X3_LOCK" value="" x="73.3" y="4.5" smashed="yes"/>
 <element name="U$3" library="KickSat-Logo" package="KICKSAT_LOGO" value="KICKSAT_LOGO" x="22.3" y="21.4" rot="MR90"/>
+<element name="C18" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="58.4" y="59.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="59.4255" y="59.162" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="59.403" y="61.216" size="0.4064" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -7320,7 +7327,6 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="GND3"/>
 <contactref element="U1" pad="GND1"/>
 <contactref element="U4" pad="AGND"/>
-<contactref element="R5" pad="1"/>
 <contactref element="U5" pad="18"/>
 <contactref element="U5" pad="1"/>
 <contactref element="C7" pad="2"/>
@@ -7516,13 +7522,16 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="64.2" y1="11.6" x2="64.2" y2="9.5" width="0.4064" layer="1"/>
 <wire x1="58.6" y1="65.35" x2="60.35" y2="65.35" width="0.4064" layer="1"/>
 <wire x1="60.35" y1="65.35" x2="60.4" y2="65.3" width="0.4064" layer="1"/>
-<wire x1="56.5" y1="58.8" x2="56.5" y2="57.6" width="0.4064" layer="1"/>
-<via x="56.5" y="57.6" extent="1-16" drill="0.6"/>
-<wire x1="56.5" y1="57.6" x2="56.5" y2="57.4" width="0.4064" layer="16"/>
 <wire x1="24.8" y1="8.7" x2="24.8" y2="6.2" width="0.4064" layer="1"/>
 <wire x1="24.8" y1="6.2" x2="25.2" y2="5.8" width="0.4064" layer="1"/>
 <via x="25.2" y="5.8" extent="1-16" drill="0.6"/>
 <wire x1="25.2" y1="5.8" x2="25.5" y2="5.8" width="0.4064" layer="16"/>
+<contactref element="R5" pad="1"/>
+<contactref element="C18" pad="2"/>
+<wire x1="56.5" y1="58.8" x2="58.4" y2="58.8" width="0.4064" layer="1"/>
+<wire x1="58.4" y1="58.8" x2="58.4" y2="57.7" width="0.4064" layer="1"/>
+<via x="58.4" y="57.7" extent="1-16" drill="0.6"/>
+<wire x1="58.4" y1="57.7" x2="58.4" y2="57.4" width="0.4064" layer="16"/>
 </signal>
 <signal name="VREG_IN">
 <contactref element="U6" pad="5"/>
@@ -7957,11 +7966,13 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$37">
 <contactref element="R4" pad="1"/>
-<contactref element="R5" pad="2"/>
 <contactref element="U4" pad="15/A1"/>
 <wire x1="52.705" y1="65.57" x2="53.23" y2="65.57" width="0.4064" layer="1"/>
 <wire x1="53.23" y1="65.57" x2="56.5" y2="62.3" width="0.4064" layer="1"/>
-<wire x1="56.5" y1="60.6" x2="56.5" y2="62.3" width="0.4064" layer="1"/>
+<contactref element="R5" pad="2"/>
+<contactref element="C18" pad="1"/>
+<wire x1="56.5" y1="62.3" x2="56.5" y2="60.6" width="0.4064" layer="1"/>
+<wire x1="56.5" y1="60.6" x2="58.4" y2="60.6" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$39">
 <contactref element="U5" pad="20"/>
